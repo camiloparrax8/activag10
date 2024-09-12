@@ -1,5 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
+import { getLanguage, getTranslation } from "../../utils/i18n";
+const language = getLanguage();
 
 const FooterFour = () => {
     return (
@@ -17,11 +19,11 @@ const FooterFour = () => {
                                         <Link href="/"><a><img src="/assets/img/logo/logo-w.png" alt="" /></a></Link>
                                     </div>
                                     <div className="footer-text">
-                                        <p>Call Us: 800-454-9272, 890-090-0000 <br />
-                                            New York, USA – 1060 Firs Avenue, Muswell Hill</p>
+                                    <p>{getTranslation(language, 'home.footer.footer-text')}: +57 3012546886 <br />
+                                    calle 33 #4-27 Tierralta</p>
                                     </div>
                                     <div className="footer-btn">
-                                        <Link href="/contact"><a className="border-btn"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                                        <Link href="/contact"><a className="border-btn"><i className="fal fa-farm"></i><span>{getTranslation(language, 'home.footer.footer-btn-text')}</span></a></Link>
                                     </div>
                                     <div className="footer-social">
                                         <span>get connect:</span>
