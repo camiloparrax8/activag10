@@ -1,6 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 import BrandSliderTwo from '../elements/brand/brand-slider-two';
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+const language = getLanguage();
 
 const FeatureSectionFour = () => {
    return (
@@ -10,9 +13,9 @@ const FeatureSectionFour = () => {
                <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                   <div className="col-lg-8">
                      <div className="section-title style-4 features-section-title text-center">
-                        <span className="section-subtitle">core features</span>
-                        <h2 className="section-main-title mb-45">our ability to make your
-                           lawn look its best.</h2>
+                        <span className="section-subtitle">{getTranslation(language, 'home.Feature-section-four.section-subtitle')}</span>
+                        <h2 className="section-main-title mb-45">{getTranslation(language, 'home.Feature-section-four.section-main-title')}
+                           </h2>
                      </div>
                   </div>
                </div>
@@ -20,7 +23,7 @@ const FeatureSectionFour = () => {
          </div>
          <div className="container">
             <div className="features-wrapper style-4">
-               <div className="row wow fadeInUp" data-wow-delay=".3s">
+               {/* <div className="row wow fadeInUp" data-wow-delay=".3s">
                   <div className="col-lg-6">
                      <div className="single-feature style-4 mb-30">
                         <div className="single-feature-inner">
@@ -77,7 +80,7 @@ const FeatureSectionFour = () => {
                         </div>
                      </div>
                   </div>
-               </div>
+               </div> */}
                <BrandSliderTwo brand_class="style-4" brand_classA="" />
             </div>
          </div>
