@@ -1,63 +1,29 @@
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+const language = getLanguage();
+
 const nav_menus_list = [
   {
     link: '/',
-    title: 'Home',
-    hasDropdown: true,
-    megamenu: false,
-    dropdownItems: [
-      { link: '/', title: 'Home Style 01' },
-      { link: '/home-2', title: 'Home Style 02' },
-      { link: '/home-3', title: 'Home Style 03' },
-      { link: '/home-4', title: 'Home Style 04' },
-      { link: '/home-5', title: 'Home Style 05' },
-    ]
+    title: getTranslation(language, 'header.menu.home'),
   },
   {
     link: '/about',
-    title: 'About',
+    title: getTranslation(language, 'header.menu.about'),
   },
   {
-    link: '/service',
-    title: 'Services',
-    hasDropdown: true,
-    megamenu: false,
-    dropdownItems: [
-      { link: '/service', title: 'Services' },
-      { link: '/service-details', title: 'Service Details' },
-    ]
-  },
-  {
-    link: '/shop',
-    title: 'Pages',
-    hasDropdown: true,
-    megamenu: false,
-    dropdownItems: [
-      { link: '/portfolio', title: 'Portfolio' },
-      { link: '/portfolio-details', title: 'Portfolio Details' },
-      { link: '/team', title: 'Team' },
-      { link: '/team-details', title: 'Team Details' },
-      { link: '/shop', title: 'Shop' },
-      { link: '/shop-details', title: 'Shop Details' },
-      { link: '/wishlist', title: 'Wishlist' },
-      { link: '/cart', title: 'Cart' },
-      { link: '/checkout', title: 'Checkout' },
-      { link: '/faq', title: 'FAQ' },
-    ]
+    link: '/process',
+    title: getTranslation(language, 'header.menu.process'),
   },
   {
     link: '/blog',
-    title: 'Blog',
-    hasDropdown: true,
-    megamenu: false,
-    dropdownItems: [
-      { link: '/blog', title: 'Blog' },
-      { link: '/blog-details', title: 'Blog Details' },
-    ]
+    title: getTranslation(language, 'header.menu.blog'),
   },
   {
     link: '/contact',
-    title: 'Contact',
-  },
+    title: getTranslation(language, 'header.menu.contact'),
+  }
+
 ]
 
 export default nav_menus_list;
