@@ -1,35 +1,31 @@
 import React from 'react';
-import FooterOne from '../../layout/footers/footer';
-import Footer from '../../layout/footers/footer';
-import HeaderOne from '../../layout/headers/header';
-import Header from '../../layout/headers/header';
-import BrandSlider from '../elements/brand/brandslider';
-import HeroSlider from '../elements/hero/heroslider';
-import BlogSection from './blog-section';
-import FactSection from './fact-section';
-import FoundationSection from './foundation-section';
-import PortfolioSection from './portfolio-section';
-import PricingSection from './pricing-section';
-import ServiceSection from './service-section';
-import TestimonialSection from './testimonial-section';
-import WorkSection from './work-section';
+import HeaderFour from '../../layout/headers/headerfour';
+import ServiceSectionFour from '../home-4/service-section-four';
+import FoundationSectionFour from '../home-4/foundation-section-four';
+import FeatureSectionFour from '../home-4/feature-section-four';
+import PortfolioSectionFour from '../home-4/portfolio-section-four';
+import TestimonialSliderFour from '../elements/testimonial/testimonial-slider-four';
+import TeamSection from '../home-4/team-section';
+import NewsletterSectionFour from '../home-4/newsletter-section-four';
+import BlogSectionTwo from '../home-2/blog-section-two';
+import FooterFour from '../../layout/footers/footerfour';
+import HeroSliderThree from '../elements/hero/hero-slider-three';
 
 
 const index = () => {
   return (
     <main>
-      <HeaderOne />
-      <HeroSlider />
-      <ServiceSection />
-      <FoundationSection />
-      <PricingSection />
-      <PortfolioSection />
-      <WorkSection />
-      <TestimonialSection />
-      <FactSection />
-      <BlogSection />
-      <BrandSlider />
-      <FooterOne />
+      <HeaderFour />
+      <HeroSliderThree />
+      <ServiceSectionFour />
+      <FoundationSectionFour />
+      <FeatureSectionFour />
+      <PortfolioSectionFour />
+      {/* <TestimonialSliderFour />
+      <TeamSection />
+      <NewsletterSectionFour /> */}
+      <BlogSectionTwo blog_area_class="blog-area-4 pt-120 pb-75" blog_single_class="style-4 mb-45" />
+      <FooterFour />
     </main>
   );
 };
