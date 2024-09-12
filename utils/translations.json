@@ -1,0 +1,253 @@
+{
+    "es": {
+        "language": {
+            "es": "Español",
+            "en": "English",
+            "em": "Emberá"
+        },
+        "header": {
+            "menu": {
+                "home": "Inicio",
+                "about": "Nosotros",
+                "process": "Nuestros procesos",
+                "blog": "Blog",
+                "contact": "Contacto",
+                "connect": "Conectar"
+            }
+        },
+        "about": {
+            "title": "Nosotros",
+            "subtitle": "Somos una empresa de",
+            "since": "Desde 2006",
+            "name": "Activa-G10",
+            "description": "Somos un grupo de campesinos empresarios rurales del programa de desarrollo alternativo, amantes de la cultura de la legalidad y alternativas lícitas, dentro de las cuales se desarrollan actividades productivas de cacao, plátano,caucho y miel de abejas.",
+            "description-two": "Estamos conformados por 10 organizaciones de primer nivel, cuyos integrantes son familias guardabosques. Desde esa fecha hasta hoy, sigue siendo una asociación con personería jurídica, patrimonio propio e independiente y autonomía administrativa.",
+            "mision": {
+                "title": "Misión",
+                "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general"
+            },
+            "vision": {
+                "title": "Visión",
+                "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general."
+            },
+            "goal": {
+                "title": "Objetivo",
+                "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general"
+            },
+            "timeline": {
+                "first": {
+                    "date": "2000",
+                    "title": "¿Quiénes eramos?",
+                    "description": "Familias campesinas víctimas del conflicto armado y cultivos ilícitos, desplazadas y retornantes, afectadas por la descomposición social"
+                },
+                "second": {
+                    "date": "2006",
+                    "title": "Activa G10",
+                    "description": "Activa G10 fue creada el 6 de Noviembre de 2006, con personería jurídica desde Diciembre 12 de 2006"
+                },
+                "third": {
+                    "date": "HOY",
+                    "title": "¿Quiénes somos?",
+                    "description": "Campesinos empresarios rurales del programa de desarrollo alternativo que producen cacao, plátano, caucho y miel de abejas, y promueven la legalidad."
+                }
+            },
+            "location": {
+                "title": "Ubicación",
+                "address": "Kra 29A N°12A-13, Tierralta, Colombia",
+                "city": "Tierralta",
+                "features-title": "Tierralta es:",
+                "feature-one": "Tierra Ganadera",
+                "feature-two": "Tierra Fértil",
+                "feature-three": "Tierra Amable"
+            }
+        },
+        "home": {
+            "banner": {
+                "item-1": {
+                    "slider-subtitle": "Cacao Especial",
+                    "slider-title": "Fino en sabor y aroma",
+                    "slider-btn": "Nuestra Historia"
+                },
+                "item-2": {
+                    "slider-subtitle": "Alimento Nutritivo",
+                    "slider-title": "Alimento de los Dioses",
+                    "slider-btn": "Nuestra Historia"
+                },
+                "item-3": {
+                    "slider-subtitle": "Ventas Importantes",
+                    "slider-title": "alimento de oportunidades",
+                    "slider-btn": "Nuestra Historia"
+                }
+            },
+            "service-section": {
+                "item-1": {
+                    "title": "Siembra y Cosecha de Cacao",
+                    "badge": "",
+                    "description": "La siembra y cosecha de cacao requieren terrenos fértiles, plantación cuidadosa y recolección en el punto óptimo.",
+                    "button": "Ver detalles"
+                },
+                "item-2": {
+                    "title": "Transformacion del cacao",
+                    "badge": "",
+                    "description": "La transformación del cacao incluye tostión, molienda y refinado para obtener un producto final de alta calidad ",
+                    "button": "Ver detalles"
+                },
+                "item-3": {
+                    "title": "comercialización",
+                    "badge": "",
+                    "description": "La comercialización del cacao abarca su distribución, venta y promoción para llegar al mercado final.",
+                    "button": "Ver detalles"
+                }
+            },
+            "Foundation-section-four": {
+                "section-subtitle": "Desde 2009",
+                "section-main-title": "Activa G10 ofrece un servicio integral",
+                "section-description": "Ofrecemos un cacao fino de sabor y aroma excepcionales, gracias al cuidadoso manejo de los productores en los procesos de cosecha, asegurando frutos fisiológicamente maduros. Además, se realiza una rigurosa limpieza y clasificación del grano, junto con un proceso óptimo de fermentación y secado, logrando un grado de humedad relativa del 7%",
+                "designation": "Fundador",
+                "founder-name": "Juan Pardo"
+            },
+            "Feature-section-four": {
+                "section-subtitle": "Con Nuestros Aliados",
+                "section-main-title": " potenciamos el crecimiento y la innovación de activag10."
+            },
+            "portfolio": {
+                "general": {
+                    "section-subtitle": "Conoce nuestras mejores imagenes",
+                    "section-main-title": "Galeria de imagenes"
+                },
+                "item-1": {
+                    "portfolio-title": "Siembra"
+                },
+                "item-2": {
+                    "portfolio-title": "Cosecha"
+                },
+                "item-3": {
+                    "portfolio-title": "Fermentación"
+                },
+                "item-4": {
+                    "portfolio-title": "Secado"
+                },
+                "item-5": {
+                    "portfolio-title": "Transformación"
+                },
+                "item-6": {
+                    "portfolio-title": "Productos"
+                }
+            },
+            "footer":{
+                "footer-text": "celular",
+                "footer-btn-text":"Contactanos",
+                "footer-social-text":"Redes Sociales" 
+
+            }
+        }
+    },
+    "en": {
+        "language": {
+            "es": "Spanish",
+            "en": "English",
+            "em": "Embera"
+        },
+        "header": {
+            "menu": {
+                "home": "Home",
+                "about": "About",
+                "process": "Our processes",
+                "blog": "Blog",
+                "contact": "Contact",
+                "connect": "Connect"
+            }
+        },
+        "about": {
+            "title": "About us",
+            "subtitle": "this is a subtitle",
+            "since": "Since from 2006",
+            "name": "Activa-G10",
+            "description": "A group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber and honey bee are developed.",
+            "description-two": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions.",
+            "mision": {
+                "title": "Mision",
+                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+            },
+            "vision": {
+                "title": "Vision",
+                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+            },
+            "goal": {
+                "title": "Goal",
+                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+            },
+            "timeline": {
+                "first": {
+                    "date": "2000",
+                    "title": "¿Quiénes eramos?",
+                    "description": "Familias desplazadas por la violencia"
+                },
+                "second": {
+                    "date": "2006",
+                    "title": "Activa G10",
+                    "description": "Familias desplazadas por la violencia"
+                },
+                "third": {
+                    "date": "HOY",
+                    "title": "¿Quiénes somos?",
+                    "description": "Familias desplazadas por la violencia"
+                }
+            }
+        }
+    },
+    "em": {
+        "language": {
+            "es": "Español",
+            "en": "English",
+            "em": "Emberá"
+        },
+        "header": {
+            "menu": {
+                "home": "Inicio",
+                "about": "Nosotros",
+                "process": "Nuestros procesos",
+                "blog": "Blog",
+                "contact": "Contacto",
+                "connect": "Conectar"
+            }
+        },
+        "about": {
+            "title": "About us",
+            "subtitle": "this is a subtitle",
+            "since": "Since from 2006",
+            "name": "Activa-G10",
+            "description": "A group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber and honey bee are developed.",
+            "description-two": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions.",
+            "mision": {
+                "title": "Mision",
+                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+            },
+            "vision": {
+                "title": "Vision",
+                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+            },
+            "goal": {
+                "title": "Goal",
+                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+            },
+            "timeline": {
+                "first": {
+                    "date": "2000",
+                    "title": "¿Quiénes eramos?",
+                    "description": "Familias desplazadas por la violencia"
+                },
+                "second": {
+                    "date": "2006",
+                    "title": "Activa G10",
+                    "description": "Familias desplazadas por la violencia"
+                },
+                "third": {
+                    "date": "HOY",
+                    "title": "¿Quiénes somos?",
+                    "description": "Familias desplazadas por la violencia"
+                }
+            }
+        }
+    }
+}
