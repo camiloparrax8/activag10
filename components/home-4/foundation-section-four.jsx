@@ -1,5 +1,8 @@
 import Link from 'next/link';
 import React from 'react';
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+const language = getLanguage();
 
 const FoundationSectionFour = () => {
     return (
@@ -28,23 +31,23 @@ const FoundationSectionFour = () => {
                <div className="col-lg-6">
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
-                        <span className="section-subtitle">since from 2000</span>
-                        <h2 className="section-main-title mb-20">Gardeny offers a full-service</h2>
+                        <span className="section-subtitle">{getTranslation(language, 'home.Foundation-section-four.section-subtitle')}</span>
+                        <h2 className="section-main-title mb-20">{getTranslation(language, 'home.Foundation-section-four.section-main-title')}</h2>
                      </div>
-                     <p>Most gardens consist of a mix of natural and constructed elements, although
-                        even very natural gardens are always an inherently artificial creation. Natural
-                        elements present in a garden principally. </p>
+                     <p>
+                     {getTranslation(language, 'home.Foundation-section-four.section-description')}
+                      </p>
                      <div className="founder-meta mt-45">
                         <div className="founder-info-meta">
                            <div className="founder-img">
                               <img src="/assets/img/team/founder.jpg" alt=""/>
                            </div>
                            <div className="founder-desciption">
-                              <span className="designation">founder</span>
-                              <h4 className="founder-name">humble d. dowson</h4>
+                              <span className="designation">{getTranslation(language, 'home.Foundation-section-four.designation')}</span>
+                              <h4 className="founder-name">{getTranslation(language, 'home.Foundation-section-four.founder-name')}</h4>
                            </div>
                         </div>
-                        <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>
+                        {/* <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link> */}
                      </div>
                   </div>
                </div>
