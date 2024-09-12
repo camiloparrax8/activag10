@@ -3,9 +3,13 @@ import React, { useState } from 'react';
 import { EffectFade, Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ModalVideo from 'react-modal-video';
+import { getLanguage, getTranslation } from "../../../utils/i18n";
+
 
 // Import Swiper styles
 import 'swiper/css/bundle';
+
+const language = getLanguage();
 
 const HeroSliderThree = () => {
 
@@ -16,23 +20,23 @@ const HeroSliderThree = () => {
         {
             id: 1,
             sliderBg: '/assets/img/banner/banner-3-1.jpg',
-            sliderSubtitle: 'since from 2000',
-            sliderTitle: 'Jik Flower Scaping',
-            sliderbtn: 'Get estimate',
+            sliderSubtitle: getTranslation(language, 'home.banner.item-1.slider-subtitle'),
+            sliderTitle: getTranslation(language, 'home.banner.item-1.slider-title'),
+            sliderbtn: getTranslation(language, 'home.banner.item-1.slider-btn'),
         },
         {
             id: 2,
             sliderBg: '/assets/img/banner/banner-4-1-dark.jpg',
-            sliderSubtitle: 'since from 2000',
-            sliderTitle: 'k.i Flower plants',
-            sliderbtn: 'Get estimate',
+            sliderSubtitle: getTranslation(language, 'home.banner.item-2.slider-subtitle'),
+            sliderTitle: getTranslation(language, 'home.banner.item-2.slider-title'),
+            sliderbtn: getTranslation(language, 'home.banner.item-2.slider-btn'),
         },
         {
             id: 3,
             sliderBg: '/assets/img/banner/banner-1-1-dark.jpg',
-            sliderSubtitle: 'since from 2000',
-            sliderTitle: 'make dream gardening',
-            sliderbtn: 'Get estimate',
+            sliderSubtitle: getTranslation(language, 'home.banner.item-3.slider-subtitle'),
+            sliderTitle: getTranslation(language, 'home.banner.item-3.slider-title'),
+            sliderbtn: getTranslation(language, 'home.banner.item-3.slider-btn'),
         }
     ];
 
