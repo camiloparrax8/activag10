@@ -3,8 +3,14 @@ import Link from 'next/link';
 import React from 'react';
 import portfolioList from '../../data/portfolio-data';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { useState } from "react";
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+const language = getLanguage();
 
 const PortfolioSectionFour = () => {
+    const lightboxImages = portfolioList.map(img => img.portfolioImg);
+    const images = lightboxImages;
 
     return (
         <>
@@ -14,8 +20,8 @@ const PortfolioSectionFour = () => {
                     <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                         <div className="col-lg-8">
                             <div className="section-title style-4 text-center">
-                                <span className="section-subtitle">photo gallary</span>
-                                <h2 className="section-main-title mb-45">Our Latest Projects</h2>
+                            <span className="section-subtitle">{getTranslation(language, 'home.portfolio.general.section-subtitle')}</span>
+                            <h2 className="section-main-title mb-45">{getTranslation(language, 'home.portfolio.general.section-main-title')}</h2>
                             </div>
                         </div>
                     </div>
@@ -31,7 +37,7 @@ const PortfolioSectionFour = () => {
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper style-4 wow fadeInUp" data-wow-delay=".3s">
                             <span className="portfolio-shape-1"></span>
                             <i className="flaticon-gardening-1 portfolio-shape-2"></i>
-                            {portfolioList.slice(9, 15).map((item, index) => (
+                            {portfolioList.map((item, index) => (
                                 <div className="portfolio-single portfolio-hover-style style-4" key={index}>
                                     <div className="portfolio-thumb">
                                         <Link href={`/shop-details/${item.id}`}><a><img src={item.portfolioImg} alt="" /></a></Link>
