@@ -9,7 +9,7 @@ const ServiceSectionFour = () => {
                 <div className="services-wrapper">
                     {ServicesList &&
                         <div className="row">
-                            {ServicesList.slice(10, 13).map((item, num) => (
+                        {ServicesList.map((item, num) => (
                                 <div className="col-lg-4 col-md-6" key={num}>
                                     <div className="single-service single-service-style-4 mb-30">
                                         <div className="service-icon">
