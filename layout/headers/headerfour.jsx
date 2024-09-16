@@ -49,7 +49,7 @@ const HeaderFour = () => {
                                                 <NavMenu />
                                             </nav>
                                         </div>
-                                        <Link href="/contact"><a className="border-btn d-none d-xl-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                                        {/* <Link href="/contact"><a className="border-btn d-none d-xl-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link> */}
                                         <div className="menu-bar d-lg-none">
                                             <span className="side-toggle" onClick={() => setShowSidebar(true)}>
                                                 <div className="bar-icon">

@@ -4,7 +4,6 @@ import { getLanguage, setLanguage, getTranslation } from '../../utils/i18n';
 const HeaderTopFour = () => {
 
     const language = getLanguage();
-    console.log(language);
     return (
         <div className="header-top-area style-4 d-none d-lg-block">
             <div className="container">
