@@ -4,6 +4,7 @@ import HeaderOne from '../../layout/headers/header';
 import Breadcrumb from '../common/breadcrumb';
 import ContactFormSection from './contact-form-section';
 import ContactMapSection from './contact-map-section';
+import FooterFour from '../../layout/footers/footerfour';
 
 
 const index = () => {
@@ -13,7 +14,7 @@ const index = () => {
             <Breadcrumb breadTitle={'contact us'} breadSubtitle={'Provides hassle-free backyard transformation'} breadHome={'Home'} breadMenu={'contact'} />
             <ContactFormSection />
             <ContactMapSection />
-            <FooterOne />
+            <FooterFour />
         </main>
     );
 };
