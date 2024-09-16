@@ -134,11 +134,14 @@
                     "portfolio-title": "Productos"
                 }
             },
-            "footer":{
+            "blog": {
+                "section-subtitle": "Relevancia",
+                "section-main-title": "Blog y Noticias"
+            },
+            "footer": {
                 "footer-text": "celular",
-                "footer-btn-text":"Contactanos",
-                "footer-social-text":"Redes Sociales" 
-
+                "footer-btn-text": "Contactanos",
+                "footer-social-text": "Redes Sociales"
             }
         }
     },
