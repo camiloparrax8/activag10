@@ -4,25 +4,29 @@ import blogItemsList from '../../data/blogs';
 import { getLanguage, getTranslation } from "../../utils/i18n";
 
 import { useEffect, useState } from 'react';
-import { obtenerEntradasEspañol } from '../../service/entradasEspañol';
+// import { obtenerEntradasEspañol } from '../../service/entradasEspañol';
+import { obtenerEntradas } from '../../service/entradas';
 
 const BlogSectionTwo = ({blog_area_class , blog_single_class}) => {
     const [entradas, setEntradas] = useState([]);
+    
+    const language = getLanguage();
+    
     useEffect(() => {
         const fetchData = async () => {
           try {
-            const data = await obtenerEntradasEspañol();
-            setEntradas(data); // Aquí se setean las entradas obtenidas
+            const data = await obtenerEntradas(language);
+            setEntradas(data); 
           } catch (error) {
             console.error('Error fetching data:', error);
           }
         };
     
         fetchData();
-      }, []);
+      }, [language]);
 
     
-const language = getLanguage();
+
     return (
         <section className={`blog-area ${blog_area_class ? blog_area_class : 'blog-area-2 pb-75'}`}>
             <div className="container">
