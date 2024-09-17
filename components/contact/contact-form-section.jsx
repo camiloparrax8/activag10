@@ -1,4 +1,7 @@
 import React from 'react';
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+const language = getLanguage();
 
 const ContactFormSection = () => {
     return (
@@ -9,31 +12,30 @@ const ContactFormSection = () => {
                         <div className="contact-wrapper">
                             <div className="contact-wrapper-content">
                                 <div className="section-title">
-                                    <span className="section-subtitle">call to action</span>
-                                    <h2 className="section-main-title mb-35">Send Us A Message
-                                        For Next Project</h2>
+                                    <span className="section-subtitle">{getTranslation(language, 'contact.contactForm.formulario')}</span>
+                                    <h2 className="section-main-title mb-35">{getTranslation(language, 'contact.contactForm.tituloFormulario')}</h2>
                                 </div>
                                 <div className="contact-form">
                                     <form action="#">
                                         <div className="row">
                                             <div className="col-sm-6">
                                                 <div className="single-input-field field-name">
-                                                    <input type="text" placeholder="Enter full name"/>
+                                                    <input type="text" placeholder={getTranslation(language, 'contact.contactForm.placeholderNombre')}/>
                                                 </div>
                                             </div>
                                             <div className="col-sm-6">
                                                 <div className="single-input-field field-email">
-                                                    <input type="text" placeholder="email address"/>
+                                                    <input type="text" placeholder={getTranslation(language, 'contact.contactForm.placeholderCorreo')}/>
                                                 </div>
                                             </div>
                                             <div className="col-sm-12">
                                                 <div className="single-input-field field-message">
-                                                    <textarea name="message" id="message" placeholder="message"></textarea>
+                                                    <textarea name="message" id="message" placeholder={getTranslation(language, 'contact.contactForm.placeholderMensaje')}></textarea>
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="contact-btn">
-                                            <button type='submit' className="fill-btn"><i className="fal fa-farm"></i><span>Get a Quote</span></button>
+                                            <button type='submit' className="fill-btn"><i className="fal fa-farm"></i><span>{getTranslation(language, 'contact.contactForm.botonEnvio')}</span></button>
                                         </div>
                                     </form>
                                 </div>

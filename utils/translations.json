@@ -143,6 +143,35 @@
                 "footer-btn-text": "Contactanos",
                 "footer-social-text": "Redes Sociales"
             }
+        },
+        "contact":{
+            "index":{
+                "breadTitle": "Contactanos",
+                "breadSubtitle":"Hagamos un mundo mejor",
+                "breadHome":"Inicio",
+                "breadMenu":"Contacto"
+            },
+            "contactForm":{
+                "formulario":"Formulario de contacto",
+                "tituloFormulario":"Envíanos un mensaje y resolveremos tus dudas",
+                "placeholderNombre":"Nombre completo",
+                "placeholderCorreo":"Correo electronico",
+                "placeholderMensaje":"Mensaje",
+                "botonEnvio":"Enviar mensaje"
+            },
+            "contactMap":{
+                "spanContacto":"Contacto",
+                "h2Contacto":"Pongase en contacto",
+                "h4Informacion":"sede principal",
+                "numeroTelefono":"+57 300 123 4567",
+                "correo":"activaG10@gmail.com",
+                "direccion":"Cl. 11 #17-45, Tierralta, Córdoba",
+                "horaDeApertura":"horario de apertura",
+                "spanSabLunes":"Sab - Lun",
+                "spanLunJue":"lun - jue",
+                "spanViernes":"viernes",
+                "spanDiaLibre":"día de descanso"
+            }
         }
     },
     "en": {

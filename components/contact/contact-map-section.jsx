@@ -1,17 +1,20 @@
 import React from 'react';
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+const language = getLanguage();
 
 const ContactMapSection = () => {
     return (
         <section className="contact-info-area">
          <div className="contact-info-shape">
-            <img className="contact-img-1" src="/assets/img/about/shovle-img.png" alt=""/>
+            <img className="contact-img-1" src="/assets/img/about/shovle-img.jpg" alt=""/>
          </div>
          <div className="container">
             <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-8">
                   <div className="section-title text-center">
-                     <span className="section-subtitle">contact</span>
-                     <h2 className="section-main-title mb-45">get in touch</h2>
+                     <span className="section-subtitle">{getTranslation(language, 'contact.contactMap.spanContacto')}</span>
+                     <h2 className="section-main-title mb-45">{getTranslation(language, 'contact.contactMap.h2Contacto')}</h2>
                   </div>
                </div>
             </div>
@@ -23,7 +26,7 @@ const ContactMapSection = () => {
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-media">
-                     <h4 className="contact-info-title">head quarter</h4>
+                     <h4 className="contact-info-title">{getTranslation(language, 'contact.contactMap.h4Informacion')}</h4>
                      <div className="info-contact">
                         <ul>
                            <li>
@@ -31,7 +34,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-phone"></i>
                                  </div>
-                                 <p><a href="tel:1-800-700-600">1-800-700-600</a></p>
+                                 <p><a href="tel:1-800-700-600">{getTranslation(language, 'contact.contactMap.numeroTelefono')}</a></p>
                               </div>
                            </li>
                            <li>
@@ -39,7 +42,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-envelope-open"></i>
                                  </div>
-                                 <p><a href="mailto:info@bdevs-email.com">info@bdevs-email.com</a></p>
+                                 <p><a href="mailto:info@bdevs-email.com">{getTranslation(language, 'contact.contactMap.correo')}</a></p>
                               </div>
                            </li>
                            <li>
@@ -47,8 +50,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><a href="#">60 East 65th Street, New York
-                                       City, NY 10065</a></p>
+                                 <p><a href="#">{getTranslation(language, 'contact.contactMap.direccion')}</a></p>
                               </div>
                            </li>
                         </ul>
@@ -57,25 +59,25 @@ const ContactMapSection = () => {
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-time">
-                     <h4 className="contact-info-title">opening hours</h4>
+                     <h4 className="contact-info-title">{getTranslation(language, 'contact.contactMap.horaDeApertura')}</h4>
                      <div className="info-contact-time">
                         <ul>
                            <li>
                               <div className="info-date">
-                                 <span>Sat - mon</span>
+                                 <span>{getTranslation(language, 'contact.contactMap.spanSabLunes')}</span>
                                  <span>10:00 am - 8:00 pm</span>
                               </div>
                            </li>
                            <li>
                               <div className="info-date">
-                                 <span>mon - thu</span>
+                                 <span>{getTranslation(language, 'contact.contactMap.spanLunJue')}</span>
                                  <span>11:00 am - 6:00 pm</span>
                               </div>
                            </li>
                            <li>
                               <div className="info-date">
-                                 <span>friday</span>
-                                 <span>off-day</span>
+                                 <span>{getTranslation(language, 'contact.contactMap.spanViernes')}</span>
+                                 <span>{getTranslation(language, 'contact.contactMap.spanDiaLibre')}</span>
                               </div>
                            </li>
                         </ul>

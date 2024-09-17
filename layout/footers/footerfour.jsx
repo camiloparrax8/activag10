@@ -26,7 +26,7 @@ const FooterFour = () => {
                                         <Link href="/contact"><a className="border-btn"><i className="fal fa-farm"></i><span>{getTranslation(language, 'home.footer.footer-btn-text')}</span></a></Link>
                                     </div>
                                     <div className="footer-social">
-                                        <span>get connect:</span>
+                                        <span>{getTranslation(language, 'home.footer.footer-social-text')}:</span>
                                         <div className="social-links">
                                             <ul>
                                                 <li><a href="#"><i className="fab fa-twitter"></i></a></li>
