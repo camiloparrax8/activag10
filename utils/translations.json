@@ -17,9 +17,11 @@
         },
         "about": {
             "title": "Nosotros",
+            "bread-title": "Conoce nuestra historia",
             "subtitle": "Somos una empresa de",
             "since": "Desde 2006",
             "name": "Activa-G10",
+            "cta": "Contáctanos",
             "description": "Somos un grupo de campesinos empresarios rurales del programa de desarrollo alternativo, amantes de la cultura de la legalidad y alternativas lícitas, dentro de las cuales se desarrollan actividades productivas de cacao, plátano,caucho y miel de abejas.",
             "description-two": "Estamos conformados por 10 organizaciones de primer nivel, cuyos integrantes son familias guardabosques. Desde esa fecha hasta hoy, sigue siendo una asociación con personería jurídica, patrimonio propio e independiente y autonomía administrativa.",
             "mision": {
@@ -34,21 +36,22 @@
                 "title": "Objetivo",
                 "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general"
             },
+            "video-title": "Realizamamos el acompañamiento productivo a los pequeños cacaoteros",
             "timeline": {
-                "first": {
-                    "date": "2000",
-                    "title": "¿Quiénes eramos?",
-                    "description": "Familias campesinas víctimas del conflicto armado y cultivos ilícitos, desplazadas y retornantes, afectadas por la descomposición social"
-                },
-                "second": {
-                    "date": "2006",
-                    "title": "Activa G10",
-                    "description": "Activa G10 fue creada el 6 de Noviembre de 2006, con personería jurídica desde Diciembre 12 de 2006"
-                },
-                "third": {
-                    "date": "HOY",
-                    "title": "¿Quiénes somos?",
-                    "description": "Campesinos empresarios rurales del programa de desarrollo alternativo que producen cacao, plátano, caucho y miel de abejas, y promueven la legalidad."
+                "2006": "Se creó con 837 familias. Proyecto familias guardabosques",
+                "2007": "Proyecto MIDAS 12000 colmenas. 1107 héctareas de Cacao con 360 familias",
+                "2009": "Alianzas productivas 369H con fortalecimiento de cacao",
+                "2011": "Segunda fase de la alianza con 67H. Primer ejercicio comercial de cacao 9.5 TN con C1 cacao de Colombia",
+                "2013": "Proyecto de Colombia responde, PAC I y II, Comercialización con Nacional de chocolate y Primer ejercicio de exportación-transformación",
+                "2021": "Proyecto C4D-SENA Farmer To Farmer",
+                "details" : {
+                    "title": "Más sobre nosotros",
+                    "2006": "Fue creada con el respaldo del proyecto Familias Guardabosques y se compone de ocho cooperativas y dos asociaciones, integrando en total a 837 familias retornentes.Su enfoque principal radica en el establecimiento de cultivos de cacao, apicultura y actividades silvopastoriles en los municipios de Tierralta y Valencia Córdoba.",
+                    "2007": "Inician procesos de implementacion de 1.200 colmenas y 1.107 Hectáreas de Cacao. Participan en el programa Más Inversión para el desarrollo Sostenible -MIDAS con 360 familias.",
+                    "2009": "Se ejecuta el proyecto Alianzas Productivas enfocado en fortalecer la producción de cacao en un árca de 369 hectáreas, beneficiando a un total de 150 familias y se realizo el primer ejercicio de comercialización de miel con apiario del pinar en Bogotá con 27 toneladas",
+                    "2011": "para el 2011 se llevó a cabo la segunda fase de Alianzas Productiva, que abarcó 134 hectáreas de cacao y benefició a 167 familias. Para el año 2012 se realiza el primer ejercicio comercial de cacao con 9,5 toneladas para C1 cacao de Colombia.",
+                    "2013": "Inicia el proyecto Colombia Responde con 115F Y 30H de plátano, 36H de Caucho y 50H de Cacao, compran maquinaria: molino, descascaradora, tostadora y adecuación de instalaciones e inician una alianza comercial con casa Lukser. además de realizar la comercialización de miel y 67 unidades de cajones fermentadores con marquesinas.",
+                    "2021": "Tinaliza la alianza con Casa Luker, realizan el primer ejercicio de exportacion de 25 Toneladas  a traves de chocolate Colombia, se ejecuta el PAC I beneficiando a 300 familias con 513 Has de cacao y PAC II beneficiando a 100 familias con 196 has de cocao, Venden 66.553 kg en alianza con Nacional de Chocolates firmando un acuerdo comercial y primer pilotaje de cacao transformado"
                 }
             },
             "location": {
@@ -192,6 +195,7 @@
         },
         "about": {
             "title": "About us",
+            "bread-title":"Conoce nuestra historia",
             "subtitle": "this is a subtitle",
             "since": "Since from 2006",
             "name": "Activa-G10",
@@ -247,6 +251,7 @@
         "about": {
             "title": "About us",
             "subtitle": "this is a subtitle",
+            "bread-title":"Conoce nuestra historia",
             "since": "Since from 2006",
             "name": "Activa-G10",
             "description": "A group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber and honey bee are developed.",

@@ -14,6 +14,9 @@
 		top: 0;
 		left: 0;
 	}
+	&.video-about {
+		background-size: cover !important;
+	}
 }
 
 .video-content {
