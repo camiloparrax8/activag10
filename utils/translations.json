@@ -175,7 +175,15 @@
                 "spanViernes":"viernes",
                 "spanDiaLibre":"día de descanso"
             }
+        },
+        "process": {
+            "index": {
+                "breadTitle": "Procesos",
+                "breadHome": "Inicio",
+                "breadMenu": "Procesos"
+            }
         }
+
     },
     "en": {
         "language": {
