@@ -17,29 +17,22 @@ const HeroSliderThree = () => {
     const [video, setVideo] = useState();
     const openVideoModal = () => setIsOpen(!isOpen);
 
-    useEffect(() => {
-   
+    useEffect(() => {   
         switch (language) {
     case 'es': 
     setVideo('G1xB_Ek022g');
         break;
         case 'en': 
-        setVideo(1);
+        setVideo('OAXy_R56Daw');
             break;
             case 'em': 
         setVideo('G1xB_Ek022g');
-            break;
-   
+            break;   
     default:
-        console.log("no reconoce el lenguaje");
-        
+        console.log("no reconoce el lenguaje");        
         break;
    }
-    
-      
     }, [language])
-    
-    
     
     const SliderItem = [
         {
