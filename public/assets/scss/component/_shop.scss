@@ -692,8 +692,25 @@
 			margin-left: 3px;
 		}
 	}
+	.btn.btn-language{
+		color: var(--clr-common-white);
+		display: flex;
+		gap: 5px;
+		align-items: center;
+		justify-content: center;
+		i{
+			color: var(--clr-common-white)
+		}
+	}
+	.btn-language.--green{
+		color: var(--clr-theme-1);
+		i {
+			color: var(--clr-theme-1)
+		}
+	}
 	.dropdown-menu {
 		border-color: var(--clr-theme-1);
+		z-index: 9999;
 	}
 }
 .filter-tab-btn{

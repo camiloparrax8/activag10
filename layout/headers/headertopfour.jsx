@@ -32,10 +32,10 @@ const HeaderTopFour = () => {
                         <div className="meta-items">
                             <div className="meta-item">
                                 <div className="dropdown filter-item-btn">
-                                    <button className="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button className="btn btn-language" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                                         <i className="fal fa-globe"></i>{getTranslation(language, `language.${language}`)}<i className="fal fa-angle-down"></i>
                                     </button>
-                                    <ul className="dropdown-menu">
+                                    <ul className="dropdown-menu menu-language">
                                         <li><button className="dropdown-item" onClick={() => setLanguage('es')}>{getTranslation(language, 'language.es')}</button></li>
                                         <li><button className="dropdown-item" onClick={() => setLanguage('en')}>{getTranslation(language, 'language.en')}</button></li>
                                         <li><button className="dropdown-item" onClick={() => setLanguage('em')}>{getTranslation(language, 'language.em')}</button></li>

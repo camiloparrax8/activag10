@@ -816,7 +816,7 @@ div.mean-container {
 	top: 40px;
 	left: 0;
 	right: 0;
-	z-index: 100;
+	z-index: 99;
 	@media #{$md,$sm,$xs}{
 		top: 15px;
 	}
