@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { EffectFade, Scrollbar, A11y, Autoplay, } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import ModalVideo from 'react-modal-video';
@@ -14,8 +14,33 @@ const language = getLanguage();
 const HeroSliderThree = () => {
 
     const [isOpen, setIsOpen] = useState(false);
+    const [video, setVideo] = useState();
     const openVideoModal = () => setIsOpen(!isOpen);
 
+    useEffect(() => {
+   
+        switch (language) {
+    case 'es': 
+    setVideo('G1xB_Ek022g');
+        break;
+        case 'en': 
+        setVideo(1);
+            break;
+            case 'em': 
+        setVideo('G1xB_Ek022g');
+            break;
+   
+    default:
+        console.log("no reconoce el lenguaje");
+        
+        break;
+   }
+    
+      
+    }, [language])
+    
+    
+    
     const SliderItem = [
         {
             id: 1,
@@ -63,7 +88,7 @@ const HeroSliderThree = () => {
                                         <div className="single-banner single-banner-3 banner-970 d-flex align-items-center pos-rel">
                                             <div className="banner-bg banner-bg3 banner-bg3-1" style={{ backgroundImage: `url(${item.sliderBg})` }}></div>
                                             <div className="container pos-rel">
-                                            <ModalVideo channel='youtube' isOpen={isOpen} videoId='vWLcyFtni6U' onClose={() => { openVideoModal(); }} />
+                                            <ModalVideo channel='youtube' isOpen={isOpen} videoId={video} onClose={() => { openVideoModal(); }} />
                                                 <div className="row justify-content-center">
                                                     <div className="col-lg-8 col-md-12">
                                                         <div className="banner-content banner-content3 banner-content3-1 banner-plant-shape">
