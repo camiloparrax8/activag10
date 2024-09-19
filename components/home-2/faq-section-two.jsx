@@ -41,7 +41,7 @@ const FaqSectionTwo = ({faq_area}) => {
                               </div>
                               <div className="accordion-item">
                                  <h2 className="accordion-header" id="headingTwo-st-2">
-                                    <button className="accordion-button" type="button" data-bs-toggle="collapse"
+                                    <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                                        data-bs-target="#collapseTwo-st-2" aria-expanded="true"
                                        aria-controls="collapseTwo-st-2">
                                        2007-2008
