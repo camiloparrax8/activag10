@@ -12,7 +12,7 @@ const AboutTimeline = () => {
                      <div className={item.timelineItemClass} key={num}>
                         <div className="single-year">
                            <div className="history-year">{item.timelineYear}</div>
-                           <div className="history-thumb">
+                           <div className="history-thumb timeline">
                               <img src={item.timelineImg} alt="" />
                            </div>
                            <div className="history-content-wrapper">
