@@ -2,10 +2,11 @@ import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
 import useGlobalContext from '../../hooks/use-context';
-import { getLanguage, getTranslation } from '../../utils/i18n';
+import { getLanguage, getTranslation, setLanguage } from '../../utils/i18n';
 
 const Sidebar = () => {
     const { showSidebar, setShowSidebar } = useGlobalContext();
+    const [home, setHome] = useState(false);
     
     const language = getLanguage();
 
@@ -25,6 +26,14 @@ const Sidebar = () => {
                         {/* <!-- side-mobile-menu start --> */}
                         <nav className="side-mobile-menu d-block d-xl-none mm-menu">
                             <ul>
+                            <li className={`menu-item-has-children has-droupdown ${home ? 'active' : ''}`}>
+                                    <a onClick={() =>{ setHome(!home)}}><i className="fal fa-globe" style={{ marginRight: '5px' }}></i>{getTranslation(language, 'language.title')}</a >
+                                    <ul onClick={() => setShowSidebar(false)} className={`sub-menu ${home ? 'active' : ''}`}>
+                                        <li><a onClick={() => setLanguage('es')}>{getTranslation(language, 'language.es')}</a></li>
+                                        <li><a onClick={() => setLanguage('en')}>{getTranslation(language, 'language.en')}</a></li>
+                                        <li><a onClick={() => setLanguage('em')}>{getTranslation(language, 'language.em')}</a></li>
+                                    </ul>
+                                </li>
                                 <li><Link href="/">{getTranslation(language, 'header.menu.home')}</Link></li>
                                 <li><Link href="/about">{getTranslation(language, 'header.menu.about')}</Link></li>
                                 <li><Link href="/process">{getTranslation(language, 'header.menu.process')}</Link></li>
