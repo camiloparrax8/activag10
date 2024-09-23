@@ -19,7 +19,7 @@ const ServiceSectionFour = () => {
                                             <span className="service-number"></span>
                                             <h4 className="service-title"><Link href={`/service-details/${item.id}`}><a>{item.serviceTitle}</a></Link></h4>
                                             <p>{item.serviceDesc}</p>
-                                            <Link href={`/service-details/${item.id}`}><a className="text-btn"><i className="fal fa-long-arrow-right"></i>{item.serviceBtn}<i className="fal fa-long-arrow-right"></i></a></Link>
+                                            <Link href={item.href}><a className="text-btn"><i className="fal fa-long-arrow-right"></i>{item.serviceBtn}<i className="fal fa-long-arrow-right"></i></a></Link>
                                         </div>
                                     </div>
                                 </div>
