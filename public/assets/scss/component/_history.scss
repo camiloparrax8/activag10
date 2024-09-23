@@ -119,6 +119,12 @@
 	img {
 		width: 100%;
 	}
+	&.timeline{
+		img{
+			min-height: 300px;
+			object-fit: cover;
+		}
+	}
 }
 .history-year {
 	position: absolute;
