@@ -10,6 +10,7 @@ import NewsletterSectionFour from '../home-4/newsletter-section-four';
 import BlogSectionTwo from '../home-2/blog-section-two';
 import FooterFour from '../../layout/footers/footerfour';
 import HeroSliderThree from '../elements/hero/hero-slider-three';
+import TawkMessenger from '../TawkMessenger/TawkMessenger';
 
 
 const index = () => {
@@ -26,6 +27,7 @@ const index = () => {
       <NewsletterSectionFour /> */}
       <BlogSectionTwo blog_area_class="blog-area-4 pt-120 pb-75" blog_single_class="style-4 mb-45" />
       <FooterFour />
+      <TawkMessenger></TawkMessenger>
     </main>
   );
 };
