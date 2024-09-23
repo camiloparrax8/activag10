@@ -10,7 +10,6 @@
             "menu": {
                 "home": "Inicio",
                 "about": "Nosotros",
-                "process": "Nuestros procesos",
                 "blog": "Blog",
                 "contact": "Contacto",
                 "connect": "Conectar"
@@ -45,7 +44,7 @@
                 "2011": "Segunda fase de la alianza con 67H. Primer ejercicio comercial de cacao 9.5 TN con C1 cacao de Colombia",
                 "2013": "Proyecto de Colombia responde, PAC I y II, Comercialización con Nacional de chocolate y Primer ejercicio de exportación-transformación",
                 "2021": "Proyecto C4D-SENA Farmer To Farmer",
-                "details" : {
+                "details": {
                     "title": "Más sobre nosotros",
                     "2006": "Fue creada con el respaldo del proyecto Familias Guardabosques y se compone de ocho cooperativas y dos asociaciones, integrando en total a 837 familias retornentes.Su enfoque principal radica en el establecimiento de cultivos de cacao, apicultura y actividades silvopastoriles en los municipios de Tierralta y Valencia Córdoba.",
                     "2007": "Inician procesos de implementacion de 1.200 colmenas y 1.107 Hectáreas de Cacao. Participan en el programa Más Inversión para el desarrollo Sostenible -MIDAS con 360 familias.",
@@ -148,33 +147,33 @@
                 "footer-social-text": "Redes Sociales"
             }
         },
-        "contact":{
-            "index":{
+        "contact": {
+            "index": {
                 "breadTitle": "Contactanos",
-                "breadSubtitle":"Hagamos un mundo mejor",
-                "breadHome":"Inicio",
-                "breadMenu":"Contacto"
+                "breadSubtitle": "Hagamos un mundo mejor",
+                "breadHome": "Inicio",
+                "breadMenu": "Contacto"
             },
-            "contactForm":{
-                "formulario":"Formulario de contacto",
-                "tituloFormulario":"Envíanos un mensaje y resolveremos tus dudas",
-                "placeholderNombre":"Nombre completo",
-                "placeholderCorreo":"Correo electronico",
-                "placeholderMensaje":"Mensaje",
-                "botonEnvio":"Enviar mensaje"
+            "contactForm": {
+                "formulario": "Formulario de contacto",
+                "tituloFormulario": "Envíanos un mensaje y resolveremos tus dudas",
+                "placeholderNombre": "Nombre completo",
+                "placeholderCorreo": "Correo electronico",
+                "placeholderMensaje": "Mensaje",
+                "botonEnvio": "Enviar mensaje"
             },
-            "contactMap":{
-                "spanContacto":"Contacto",
-                "h2Contacto":"Pongase en contacto",
-                "h4Informacion":"sede principal",
-                "numeroTelefono":"+57 300 123 4567",
-                "correo":"activaG10@gmail.com",
-                "direccion":"Cl. 11 #17-45, Tierralta, Córdoba",
-                "horaDeApertura":"horario de apertura",
-                "spanSabLunes":"Sab - Lun",
-                "spanLunJue":"lun - jue",
-                "spanViernes":"viernes",
-                "spanDiaLibre":"día de descanso"
+            "contactMap": {
+                "spanContacto": "Contacto",
+                "h2Contacto": "Pongase en contacto",
+                "h4Informacion": "sede principal",
+                "numeroTelefono": "+57 300 123 4567",
+                "correo": "activaG10@gmail.com",
+                "direccion": "Cl. 11 #17-45, Tierralta, Córdoba",
+                "horaDeApertura": "horario de apertura",
+                "spanSabLunes": "Sab - Lun",
+                "spanLunJue": "lun - jue",
+                "spanViernes": "viernes",
+                "spanDiaLibre": "día de descanso"
             }
         },
         "process": {
@@ -183,16 +182,35 @@
                 "breadHome": "Inicio",
                 "breadMenu": "Procesos"
             }
-        }
-        ,
+        },
         "blog": {
             "index": {
                 "breadTitle": "Blog y Noticias",
                 "breadHome": "Inicio",
                 "breadMenu": "Blog"
             }
+        },
+        "agro": {
+            "index": {
+                "breadTitle": "Siembra y Cosecha",
+                "breadHome": "Inicio",
+                "breadMenu": "Siembra y Cosecha"
+            }
+        },
+        "transformacion": {
+            "index": {
+                "breadTitle": "Transformación",
+                "breadHome": "Inicio",
+                "breadMenu": "Transformación"
+            }
+        },
+        "comercializacion": {
+            "index": {
+                "breadTitle": "Comercializacion",
+                "breadHome": "Inicio",
+                "breadMenu": "Comercializacion"
+            }
         }
-
     },
     "en": {
         "language": {
@@ -204,7 +222,6 @@
             "menu": {
                 "home": "Home",
                 "about": "About us",
-                "process": "Our processes",
                 "blog": "Blog",
                 "contact": "Contact",
                 "connect": "Connect"
@@ -384,6 +401,27 @@
                 "breadHome": "Home",
                 "breadMenu": "Blog"
             }
+        },
+        "agro": {
+            "index": {
+                "breadTitle": "Planting and Harvesting",
+                "breadHome": "Home",
+                "breadMenu": "Planting and Harvesting"
+            }
+        },
+        "transformacion": {
+            "index": {
+                "breadTitle": "Transformation",
+                "breadHome": "Home",
+                "breadMenu": "Transformation"
+            }
+        },
+        "comercializacion": {
+            "index": {
+                "breadTitle": "Commercialization",
+                "breadHome": "Home",
+                "breadMenu": "Commercialization"
+            }
         }
     },
     "em": {
@@ -396,7 +434,6 @@
             "menu": {
                 "home": "Lore impu",
                 "about": "Lore impu",
-                "process": "Lore impu",
                 "blog": "Lore impu",
                 "contact": "Lore impu",
                 "connect": "Lore impu"
@@ -571,6 +608,27 @@
             }
         },
         "blog": {
+            "index": {
+                "breadTitle": "Lore impu",
+                "breadHome": "Lore impu",
+                "breadMenu": "Lore impu"
+            }
+        },
+        "agro": {
+            "index": {
+                "breadTitle": "Lore impu",
+                "breadHome": "Lore impu",
+                "breadMenu": "Lore impu"
+            }
+        },
+        "transformacion": {
+            "index": {
+                "breadTitle": "Lore impu",
+                "breadHome": "Lore impu",
+                "breadMenu": "Lore impu"
+            }
+        },
+        "comercializacion": {
             "index": {
                 "breadTitle": "Lore impu",
                 "breadHome": "Lore impu",
