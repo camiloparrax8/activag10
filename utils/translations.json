@@ -183,6 +183,14 @@
                 "breadMenu": "Procesos"
             }
         }
+        ,
+        "blog": {
+            "index": {
+                "breadTitle": "Blog y Noticias",
+                "breadHome": "Inicio",
+                "breadMenu": "Blog"
+            }
+        }
 
     },
     "en": {

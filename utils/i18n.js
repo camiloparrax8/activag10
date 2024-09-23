@@ -20,10 +20,8 @@ export const getLanguage = () => {
   export const getTranslation = (language, key) => {
     const keys = key.split('.');
     let result = translations[language];
-  
     keys.forEach(subKey => {
       result = result ? result[subKey] : null;
     });
-  
     return result || '';
   };

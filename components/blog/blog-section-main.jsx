@@ -25,72 +25,15 @@ const BlogSectionMain = () => {
          <div className="container">
             <div className="row wow fadeInUp" data-wow-delay=".3s">
 
-               <div className="col-xl-9 col-lg-8 col-md-12">
+               <div className="col-xl-8 col-lg-8 col-md-12">
                   <div className="blog-main-wrapper mb-60">
 
-                     {blogItemsList.slice(11, 15).map((blog, i) => (
+                     {blogItemsList.slice(11, 12).map((blog, i) => (
                         <div key={i} className="blog-single">
 
                            {!blog.video && !blog.slider && !blog.withoutImg && <div className="blog-thumb">
                               <Link href={`/blog-details/${blog.id}`}><a><img src={blog.img} alt="" /></a></Link>
-                           </div>}
-
-                           {blog.video && <div className="blog-thumb">
-                              <ModalVideo channel='youtube' isOpen={isOpen} videoId='vWLcyFtni6U' onClose={() => { openVideoModal(); }} />
-                              <Link href={`/blog-details/${blog.id}`}><a><img src={blog.img} alt="" /></a></Link>
-                              <span className="play-btn popup-video play-border-effect" onClick={() => { openVideoModal(); }}><i className="fas fa-play"></i></span>
-                           </div>}
-
-                           {blog.withoutImg && <div className="blog-thumb d-none">
-                              <Link href={`/blog-details/${blog.id}`}><a><img src="/assets/img/blog/blog-3.jpg" alt=""/></a></Link>
-                           </div>}
-
-                           {blog.slider && <div className="blog-thumb">
-                              <div className="swiper-container blog-thumb-slider">
-                                 <div className="swiper-wrapper">
-                                    <Swiper
-                                       modules={[Navigation, Scrollbar, A11y, Autoplay]}
-                                       spaceBetween={30}
-                                       slidesPerView={1}
-                                       autoplaydisableoninteraction={"false"}
-                                       loop={true}
-                                       autoplay={{
-                                          delay: 3000,
-                                          disableOnInteraction: true
-                                       }}
-                                       navigation={{
-                                          clickable: true,
-                                          nextEl: '.blog-thumb-button-next',
-                                          prevEl: '.blog-thumb-button-prev',
-                                       }}
-                                    >
-                                       <SwiperSlide>
-                                          <div className="swiper-slidess">
-                                             <Link href={`/blog-details/${blog.id}`}><a><img src={blog.img} alt="" /></a></Link>
-                                          </div>
-                                       </SwiperSlide>
-                                       <SwiperSlide>
-                                          <div className="swiper-slidess">
-                                             <Link href={`/blog-details/${blog.id}`}><a><img src={blog.imgA} alt="" /></a></Link>
-                                          </div>
-                                       </SwiperSlide>
-                                       <SwiperSlide>
-                                          <div className="swiper-slidess">
-                                             <Link href={`/blog-details/${blog.id}`}><a><img src={blog.imgB} alt="" /></a></Link>
-                                          </div>
-                                       </SwiperSlide>
-                                    </Swiper>
-                                 </div>
-                                 <div className="blog-thumb-nav blog-thumb-nav">
-                                    <div className="blog-thumb-button-prev blog-thumb-nav-btn"><i
-                                       className="fal fa-long-arrow-left"></i>
-                                    </div>
-                                    <div className="blog-thumb-button-next blog-thumb-nav-btn"><i
-                                       className="fal fa-long-arrow-right"></i>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>}
+                           </div>}                                
 
                            <div className="blog-content">
                               <div className={blog.catClass}>
@@ -159,10 +102,10 @@ const BlogSectionMain = () => {
                <div className="col-xl-3 col-lg-4 col-md-8">
                   <div className="blog-sidebar_wrapper mb-60">
                      <BlogAbout />
-                     <BlogSearch />
+                     {/* <BlogSearch /> */}
                      <SidebarBlogs />
-                     <BlogCategories />
-                     <BlogTag />
+                     {/* <BlogCategories /> */}
+                     {/* <BlogTag /> */}
                      <SponsorAdd />
                   </div>
                </div>
