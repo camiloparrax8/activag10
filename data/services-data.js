@@ -126,7 +126,7 @@ const ServicesList = [
         serviceBadge:getTranslation(language, 'home.service-section.item-3.badge'),
         serviceDesc:getTranslation(language, 'home.service-section.item-3.description'),
         serviceBtn:getTranslation(language, 'home.service-section.item-3.button'),
-        href:"procesos/coomercializacion",
+        href:"procesos/comercializacion",
         
     },
     //home four service end
