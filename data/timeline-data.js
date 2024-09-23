@@ -6,7 +6,7 @@ const timelineList = [
     {
         id:1,
         timelineYear:'2006',
-        timelineImg:'/assets/img/2006.jpg',
+        timelineImg:'/assets/img/2006-1.jpg',
         timelineTitle:'2006',
         timelineDesc: getTranslation(language, 'about.timeline.2006'),
         timelineItemClass:'single-year-wrapper first-year',
