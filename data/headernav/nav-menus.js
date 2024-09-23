@@ -11,10 +11,7 @@ const nav_menus_list = [
     link: '/about',
     title: getTranslation(language, 'header.menu.about'),
   },
-  {
-    link: '/process',
-    title: getTranslation(language, 'header.menu.process'),
-  },
+
   {
     link: '/blog',
     title: getTranslation(language, 'header.menu.blog'),

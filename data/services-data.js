@@ -104,6 +104,7 @@ const ServicesList = [
         serviceBadge: getTranslation(language, 'home.service-section.item-1.badge'),
         serviceDesc:getTranslation(language, 'home.service-section.item-1.description'),
         serviceBtn:getTranslation(language, 'home.service-section.item-1.button'),
+        href:"procesos/agro",
         
     },
     {
@@ -114,6 +115,7 @@ const ServicesList = [
         serviceBadge:getTranslation(language, 'home.service-section.item-2.badge'),
         serviceDesc:getTranslation(language, 'home.service-section.item-2.description'),
         serviceBtn:getTranslation(language, 'home.service-section.item-2.button'),
+        href:"procesos/transformacion",
        
     },
     {
@@ -124,6 +126,7 @@ const ServicesList = [
         serviceBadge:getTranslation(language, 'home.service-section.item-3.badge'),
         serviceDesc:getTranslation(language, 'home.service-section.item-3.description'),
         serviceBtn:getTranslation(language, 'home.service-section.item-3.button'),
+        href:"procesos/coomercializacion",
         
     },
     //home four service end
