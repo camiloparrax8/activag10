@@ -198,12 +198,12 @@
         "language": {
             "es": "Spanish",
             "en": "English",
-            "em": "Embera"
+            "em": "Emberá"
         },
         "header": {
             "menu": {
                 "home": "Home",
-                "about": "About",
+                "about": "About us",
                 "process": "Our processes",
                 "blog": "Blog",
                 "contact": "Contact",
@@ -212,40 +212,177 @@
         },
         "about": {
             "title": "About us",
-            "bread-title":"Conoce nuestra historia",
-            "subtitle": "this is a subtitle",
-            "since": "Since from 2006",
+            "bread-title": "Know our history",
+            "subtitle": "We are a company of",
+            "since": "Since 2006",
             "name": "Activa-G10",
-            "description": "A group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber and honey bee are developed.",
-            "description-two": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions.",
+            "cta": "Contact us",
+            "description": "We are a group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber, and honey production are developed.",
+            "description-two": "We are made up of 10 first-level organizations, whose members are forest ranger families. Since then, it remains an association with legal personality, its own and independent assets, and administrative autonomy.",
             "mision": {
-                "title": "Mision",
-                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+                "title": "Mission",
+                "description": "ACTIVA G-10 is a second-level solidarity economy organization, dedicated to planning, executing, coordinating, promoting, and channeling public, private, and non-governmental actions at the national and international levels to promote the social and economic development of members and the community in general."
             },
             "vision": {
                 "title": "Vision",
-                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+                "description": "ACTIVA G-10 aims to be a second-level solidarity economy organization, dedicated to planning, executing, coordinating, promoting, and channeling public, private, and non-governmental actions at the national and international levels to promote the social and economic development of members and the community in general."
             },
             "goal": {
-                "title": "Goal",
-                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+                "title": "Objective",
+                "description": "ACTIVA G-10 is a second-level solidarity economy organization, dedicated to planning, executing, coordinating, promoting, and channeling public, private, and non-governmental actions at the national and international levels to promote the social and economic development of members and the community in general."
             },
+            "video-title": "We accompany small cocoa farmers in their production",
             "timeline": {
-                "first": {
-                    "date": "2000",
-                    "title": "¿Quiénes eramos?",
-                    "description": "Familias desplazadas por la violencia"
-                },
-                "second": {
-                    "date": "2006",
-                    "title": "Activa G10",
-                    "description": "Familias desplazadas por la violencia"
-                },
-                "third": {
-                    "date": "HOY",
-                    "title": "¿Quiénes somos?",
-                    "description": "Familias desplazadas por la violencia"
+                "2006": "Created with 837 families. Forest ranger families project",
+                "2007": "MIDAS Project 12000 hives. 1107 hectares of Cocoa with 360 families",
+                "2009": "Productive alliances project 369H with strengthening of cocoa",
+                "2011": "Second phase of the alliance with 67H. First commercial cocoa exercise 9.5 TN with C1 cocoa from Colombia",
+                "2013": "Colombia responds project, PAC I and II, Marketing with National Chocolate and First export-transformation exercise",
+                "2021": "C4D-SENA Farmer To Farmer Project",
+                "details": {
+                    "title": "More about us",
+                    "2006": "Created with the support of the Forest Ranger Families project and consists of eight cooperatives and two associations, integrating a total of 837 returning families. Its main focus lies in the establishment of cocoa crops, beekeeping, and silvopastoral activities in the municipalities of Tierralta and Valencia, Córdoba.",
+                    "2007": "Implementation processes begin with 1,200 hives and 1,107 hectares of cocoa. Participating in the More Investment for Sustainable Development -MIDAS program with 360 families.",
+                    "2009": "The Productive Alliances project is carried out, focusing on strengthening cocoa production in an area of 369 hectares, benefiting a total of 150 families, and the first honey commercialization exercise was carried out with Apiario del Pinar in Bogotá with 27 tons.",
+                    "2011": "In 2011, the second phase of the Productive Alliance was carried out, covering 134 hectares of cocoa and benefiting 167 families. In 2012, the first commercial cocoa exercise was carried out with 9.5 tons for C1 cocoa from Colombia.",
+                    "2013": "The Colombia Responde project begins with 115 families and 30 hectares of bananas, 36 hectares of rubber, and 50 hectares of cocoa, machinery is purchased: a mill, sheller, roaster, and adaptation of facilities, and a commercial alliance with Casa Luker begins. In addition, honey was commercialized, and 67 fermentation boxes with drying shelters were produced.",
+                    "2021": "The alliance with Casa Luker ends, the first export exercise of 25 tons is carried out through Chocolate Colombia, PAC I is executed, benefiting 300 families with 513 hectares of cocoa, and PAC II benefiting 100 families with 196 hectares of cocoa. They sell 66,553 kg in alliance with National Chocolates, signing a commercial agreement, and the first transformed cocoa pilot project is carried out."
                 }
+            },
+            "location": {
+                "title": "Location",
+                "address": "Kra 29A N°12A-13, Tierralta, Colombia",
+                "city": "Tierralta",
+                "features-title": "Tierralta is:",
+                "feature-one": "Cattle land",
+                "feature-two": "Fertile land",
+                "feature-three": "Friendly land"
+            }
+        },
+        "home": {
+            "banner": {
+                "item-1": {
+                    "slider-subtitle": "Special Cocoa",
+                    "slider-title": "Fine in flavor and aroma",
+                    "slider-btn": "Our History"
+                },
+                "item-2": {
+                    "slider-subtitle": "Nutritious food",
+                    "slider-title": "Food of the Gods",
+                    "slider-btn": "Our History"
+                },
+                "item-3": {
+                    "slider-subtitle": "Important sales",
+                    "slider-title": "Food of opportunities",
+                    "slider-btn": "Our History"
+                }
+            },
+            "service-section": {
+                "item-1": {
+                    "title": "Cocoa planting and harvesting",
+                    "badge": "",
+                    "description": "Cocoa planting and harvesting require fertile land, careful planting, and harvesting at the optimal point.",
+                    "button": "View details"
+                },
+                "item-2": {
+                    "title": "Cocoa processing",
+                    "badge": "",
+                    "description": "Cocoa processing includes roasting, grinding, and refining to obtain a high-quality final product.",
+                    "button": "View details"
+                },
+                "item-3": {
+                    "title": "Commercialization",
+                    "badge": "",
+                    "description": "Cocoa commercialization encompasses its distribution, sale, and promotion to reach the final market.",
+                    "button": "View details"
+                }
+            },
+            "Foundation-section-four": {
+                "section-subtitle": "Since 2009",
+                "section-main-title": "Activa G10 offers comprehensive service",
+                "section-description": "We offer fine cocoa with exceptional flavor and aroma, thanks to the careful handling of producers during the harvest processes, ensuring physiologically mature fruits. In addition, rigorous cleaning and grain classification are carried out, along with an optimal fermentation and drying process, achieving a relative humidity degree of 7%",
+                "designation": "Founder",
+                "founder-name": "Juan Pardo"
+            },
+            "Feature-section-four": {
+                "section-subtitle": "With Our Allies",
+                "section-main-title": "We drive growth and innovation for ActivaG10."
+            },
+            "portfolio": {
+                "general": {
+                    "section-subtitle": "Meet our best images",
+                    "section-main-title": "Image gallery"
+                },
+                "item-1": {
+                    "portfolio-title": "Planting"
+                },
+                "item-2": {
+                    "portfolio-title": "Harvest"
+                },
+                "item-3": {
+                    "portfolio-title": "Fermentation"
+                },
+                "item-4": {
+                    "portfolio-title": "Drying"
+                },
+                "item-5": {
+                    "portfolio-title": "Transformation"
+                },
+                "item-6": {
+                    "portfolio-title": "Products"
+                }
+            },
+            "blog": {
+                "section-subtitle": "Relevance",
+                "section-main-title": "Blog and News"
+            },
+            "footer": {
+                "footer-text": "Phone",
+                "footer-btn-text": "Contact us",
+                "footer-social-text": "Social Networks"
+            }
+        },
+        "contact": {
+            "index": {
+                "breadTitle": "Contact us",
+                "breadSubtitle": "Let's make a better world",
+                "breadHome": "Home",
+                "breadMenu": "Contact"
+            },
+            "contactForm": {
+                "formulario": "Contact form",
+                "tituloFormulario": "Send us a message, and we will solve your doubts",
+                "placeholderNombre": "Full name",
+                "placeholderCorreo": "Email",
+                "placeholderMensaje": "Message",
+                "botonEnvio": "Send message"
+            },
+            "contactMap": {
+                "spanContacto": "Contact",
+                "h2Contacto": "Get in touch",
+                "h4Informacion": "Main office",
+                "numeroTelefono": "+57 300 123 4567",
+                "correo": "activaG10@gmail.com",
+                "direccion": "Cl. 11 #17-45, Tierralta, Córdoba",
+                "horaDeApertura": "Opening hours",
+                "spanSabLunes": "Sat - Mon",
+                "spanLunJue": "Mon - Thu",
+                "spanViernes": "Friday",
+                "spanDiaLibre": "Day off"
+            }
+        },
+        "process": {
+            "index": {
+                "breadTitle": "Processes",
+                "breadHome": "Home",
+                "breadMenu": "Processes"
+            }
+        },
+        "blog": {
+            "index": {
+                "breadTitle": "Blog and News",
+                "breadHome": "Home",
+                "breadMenu": "Blog"
             }
         }
     },
@@ -257,50 +394,187 @@
         },
         "header": {
             "menu": {
-                "home": "Inicio",
-                "about": "Nosotros",
-                "process": "Nuestros procesos",
-                "blog": "Blog",
-                "contact": "Contacto",
-                "connect": "Conectar"
+                "home": "Lore impu",
+                "about": "Lore impu",
+                "process": "Lore impu",
+                "blog": "Lore impu",
+                "contact": "Lore impu",
+                "connect": "Lore impu"
             }
         },
         "about": {
-            "title": "About us",
-            "subtitle": "this is a subtitle",
-            "bread-title":"Conoce nuestra historia",
-            "since": "Since from 2006",
-            "name": "Activa-G10",
-            "description": "A group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber and honey bee are developed.",
-            "description-two": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions.",
+            "title": "Lore impu",
+            "bread-title": "Lore impu",
+            "subtitle": "Lore impu",
+            "since": "Lore impu",
+            "name": "Lore impu",
+            "cta": "Lore impu",
+            "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+            "description-two": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
             "mision": {
-                "title": "Mision",
-                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+                "title": "Lore impu",
+                "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
             },
             "vision": {
-                "title": "Vision",
-                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+                "title": "Lore impu",
+                "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
             },
             "goal": {
-                "title": "Goal",
-                "description": "We are a cooperative with corporate, private and independent legal entities, with autonomous administrative functions."
+                "title": "Lore impu",
+                "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
             },
+            "video-title": "Lore impu lore impu lore impu",
             "timeline": {
-                "first": {
-                    "date": "2000",
-                    "title": "¿Quiénes eramos?",
-                    "description": "Familias desplazadas por la violencia"
-                },
-                "second": {
-                    "date": "2006",
-                    "title": "Activa G10",
-                    "description": "Familias desplazadas por la violencia"
-                },
-                "third": {
-                    "date": "HOY",
-                    "title": "¿Quiénes somos?",
-                    "description": "Familias desplazadas por la violencia"
+                "2006": "Lore impu lore impu. Lore impu lore impu.",
+                "2007": "Lore impu lore impu lore impu lore impu lore impu.",
+                "2009": "Lore impu lore impu lore impu lore impu.",
+                "2011": "Lore impu lore impu lore impu lore impu lore impu.",
+                "2013": "Lore impu lore impu lore impu lore impu lore impu.",
+                "2021": "Lore impu lore impu lore impu lore impu lore impu.",
+                "details": {
+                    "title": "Lore impu",
+                    "2006": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                    "2007": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                    "2009": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                    "2011": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                    "2013": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                    "2021": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
                 }
+            },
+            "location": {
+                "title": "Lore impu",
+                "address": "Lore impu",
+                "city": "Lore impu",
+                "features-title": "Lore impu:",
+                "feature-one": "Lore impu",
+                "feature-two": "Lore impu",
+                "feature-three": "Lore impu"
+            }
+        },
+        "home": {
+            "banner": {
+                "item-1": {
+                    "slider-subtitle": "Lore impu",
+                    "slider-title": "Lore impu",
+                    "slider-btn": "Lore impu"
+                },
+                "item-2": {
+                    "slider-subtitle": "Lore impu",
+                    "slider-title": "Lore impu",
+                    "slider-btn": "Lore impu"
+                },
+                "item-3": {
+                    "slider-subtitle": "Lore impu",
+                    "slider-title": "Lore impu",
+                    "slider-btn": "Lore impu"
+                }
+            },
+            "service-section": {
+                "item-1": {
+                    "title": "Lore impu",
+                    "badge": "",
+                    "description": "Lore impu lore impu lore impu lore impu lore impu.",
+                    "button": "Lore impu"
+                },
+                "item-2": {
+                    "title": "Lore impu",
+                    "badge": "",
+                    "description": "Lore impu lore impu lore impu lore impu lore impu.",
+                    "button": "Lore impu"
+                },
+                "item-3": {
+                    "title": "Lore impu",
+                    "badge": "",
+                    "description": "Lore impu lore impu lore impu lore impu lore impu.",
+                    "button": "Lore impu"
+                }
+            },
+            "Foundation-section-four": {
+                "section-subtitle": "Lore impu",
+                "section-main-title": "Lore impu",
+                "section-description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                "designation": "Lore impu",
+                "founder-name": "Lore impu"
+            },
+            "Feature-section-four": {
+                "section-subtitle": "Lore impu",
+                "section-main-title": "Lore impu"
+            },
+            "portfolio": {
+                "general": {
+                    "section-subtitle": "Lore impu",
+                    "section-main-title": "Lore impu"
+                },
+                "item-1": {
+                    "portfolio-title": "Lore impu"
+                },
+                "item-2": {
+                    "portfolio-title": "Lore impu"
+                },
+                "item-3": {
+                    "portfolio-title": "Lore impu"
+                },
+                "item-4": {
+                    "portfolio-title": "Lore impu"
+                },
+                "item-5": {
+                    "portfolio-title": "Lore impu"
+                },
+                "item-6": {
+                    "portfolio-title": "Lore impu"
+                }
+            },
+            "blog": {
+                "section-subtitle": "Lore impu",
+                "section-main-title": "Lore impu"
+            },
+            "footer": {
+                "footer-text": "Lore impu",
+                "footer-btn-text": "Lore impu",
+                "footer-social-text": "Lore impu"
+            }
+        },
+        "contact": {
+            "index": {
+                "breadTitle": "Lore impu",
+                "breadSubtitle": "Lore impu",
+                "breadHome": "Lore impu",
+                "breadMenu": "Lore impu"
+            },
+            "contactForm": {
+                "formulario": "Lore impu",
+                "tituloFormulario": "Lore impu lore impu lore impu",
+                "placeholderNombre": "Lore impu",
+                "placeholderCorreo": "Lore impu",
+                "placeholderMensaje": "Lore impu",
+                "botonEnvio": "Lore impu"
+            },
+            "contactMap": {
+                "spanContacto": "Lore impu",
+                "h2Contacto": "Lore impu",
+                "h4Informacion": "Lore impu",
+                "numeroTelefono": "Lore impu",
+                "correo": "Lore impu",
+                "direccion": "Lore impu",
+                "horaDeApertura": "Lore impu",
+                "spanSabLunes": "Lore impu",
+                "spanLunJue": "Lore impu",
+                "spanViernes": "Lore impu",
+                "spanDiaLibre": "Lore impu"
+            }
+        },
+        "process": {
+            "index": {
+                "breadTitle": "Lore impu",
+                "breadHome": "Lore impu",
+                "breadMenu": "Lore impu"
+            }
+        },
+        "blog": {
+            "index": {
+                "breadTitle": "Lore impu",
+                "breadHome": "Lore impu",
+                "breadMenu": "Lore impu"
             }
         }
     }
