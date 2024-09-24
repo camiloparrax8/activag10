@@ -195,6 +195,43 @@
                 "breadTitle": "Siembra y Cosecha",
                 "breadHome": "Inicio",
                 "breadMenu": "Siembra y Cosecha"
+            },
+            "AgroDetailArea": {
+                "meta-list": {
+                    "meta-item-1": "Viveros",
+                    "meta-item-2": "Sembrado",
+                    "meta-item-3": "Cosecha",
+                    "meta-item-4": "Post-Cosecha"
+                },
+                "p": {
+                    "p1": "Ambiente controlado",
+                    "p2": "Ahoyado, abonado y siembra",
+                    "p3": "Recoleción del fruto",
+                    "p4": "Fermentación y secado"
+                },
+                "decription": "En nuestro proceso de siembra y cosecha de cacao, cuidamos cada etapa para garantizar granos de la mejor calidad. Comenzamos en viveros con el crecimiento controlado de las plántulas, que luego trasplantamos al campo. Mediante injertos de alta calidad, aseguramos una producción óptima. Finalmente, recolectamos y tratamos el grano, llevándolo a fermentación y secado, listos para su transformación en productos de cacao premium.",
+                "proceso-agro": {
+                    "title": "Detalles de los procesos",
+                    "sub-title": "Siembra y Cosecha"
+                },
+                "WorkSection": {
+                    "item-1": {
+                        "title": "Vivero",
+                        "description": "Las semillas de cacao se plantan en bolsas y permanecen en vivero por 2.5 a 3 meses, con el objetivo de que las plántulas crezcan en un ambiente controlado antes de trasplantarse."
+                    },
+                    "item-2": {
+                        "title": "Sembrado",
+                        "description": "Este proceso incluye el ahoyado, abonado y siembra de plántulas. A los 3 meses, la planta se injerta y se trasplanta al campo, asegurando su correcto desarrollo. Las plantas injertadas comienzan a dar frutos entre los 18 meses y 2 años, mejorando calidad y producción."
+                    },
+                    "item-3": {
+                        "title": "Cosecha",
+                        "description": "El proceso inicia con la recolección de mazorcas maduras, de las cuales se extrae la pulpa y se lleva a la central de beneficio. El grano de cacao se fermenta y seca durante 6 días en total, y luego se empaqueta en costales para su almacenamiento o venta, asegurando su calidad."
+                    },
+                    "item-4": {
+                        "title": "Post-Cosecha",
+                        "description": "Tras la cosecha, las semillas de cacao se fermentan durante varios días y luego se secan para desarrollar su sabor y calidad. Una vez secas, se limpian, clasifican y almacenan, listas para su transformación o venta, asegurando su calidad."
+                    }
+                }
             }
         },
         "transformacion": {
@@ -407,6 +444,43 @@
                 "breadTitle": "Planting and Harvesting",
                 "breadHome": "Home",
                 "breadMenu": "Planting and Harvesting"
+            },
+            "AgroDetailArea": {
+                "meta-list": {
+                    "meta-item-1": "Nurseries",
+                    "meta-item-2": "Planting",
+                    "meta-item-3": "Harvest",
+                    "meta-item-4": "Post-Harvest"
+                },
+                "p": {
+                    "p1": "Controlled environment",
+                    "p2": "Hole digging, fertilizing, and planting",
+                    "p3": "Fruit collection",
+                    "p4": "Fermentation and drying"
+                },
+                "decription": "In our cocoa planting and harvesting process, we take care of every stage to ensure the best quality beans. We start in nurseries with the controlled growth of seedlings, which are then transplanted into the field. Through high-quality grafting, we ensure optimal production. Finally, we collect and process the beans, taking them through fermentation and drying, ready for transformation into premium cocoa products.",
+                "proceso-agro": {
+                    "title": "Process details",
+                    "sub-title": "Planting and Harvest"
+                },
+                "WorkSection": {
+                    "item-1": {
+                        "title": "Nursery",
+                        "description": "Cocoa seeds are planted in bags and remain in the nursery for 2.5 to 3 months, allowing the seedlings to grow in a controlled environment before being transplanted."
+                    },
+                    "item-2": {
+                        "title": "Planting",
+                        "description": "This process includes hole digging, fertilizing, and planting of seedlings. After 3 months, the plant is grafted and transplanted into the field to ensure proper development. The grafted plants begin to bear fruit between 18 months and 2 years, improving quality and production."
+                    },
+                    "item-3": {
+                        "title": "Harvest",
+                        "description": "The process begins with the collection of mature cocoa pods, from which the pulp is extracted and taken to the central processing facility. The cocoa beans are fermented and dried for a total of 6 days and then packed in sacks for storage or sale, ensuring their quality."
+                    },
+                    "item-4": {
+                        "title": "Post-Harvest",
+                        "description": "After the harvest, the cocoa beans are fermented for several days and then dried to develop their flavor and quality. Once dried, they are cleaned, classified, and stored, ready for transformation or sale, ensuring their quality."
+                    }
+                }
             }
         },
         "transformacion": {
@@ -619,6 +693,43 @@
                 "breadTitle": "Lore impu",
                 "breadHome": "Lore impu",
                 "breadMenu": "Lore impu"
+            },
+            "AgroDetailArea": {
+                "meta-list": {
+                    "meta-item-1": "Lore impu",
+                    "meta-item-2": "Lore impu",
+                    "meta-item-3": "Lore impu",
+                    "meta-item-4": "Lore impu"
+                },
+                "p": {
+                    "p1": "Lore impu",
+                    "p2": "Lore impu",
+                    "p3": "Lore impu",
+                    "p4": "Lore impu"
+                },
+                "decription": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu.",
+                "proceso-agro": {
+                    "title": "Lore impu",
+                    "sub-title": "Lore impu"
+                },
+                "WorkSection": {
+                    "item-1": {
+                        "title": "Lore impu",
+                        "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
+                    },
+                    "item-2": {
+                        "title": "Lore impu",
+                        "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
+                    },
+                    "item-3": {
+                        "title": "Lore impu",
+                        "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
+                    },
+                    "item-4": {
+                        "title": "Lore impu",
+                        "description": "Lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu lore impu."
+                    }
+                }
             }
         },
         "transformacion": {
