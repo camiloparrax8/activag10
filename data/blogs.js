@@ -1,20 +1,10 @@
+import { obtenerEntradas } from "../service/entradas";
+
+
 const blogItemsList = [
 
-  {
-    id:11,
-    img:'/assets/img/portfolio/portfolio-sub3.jpg',
-    title:`That contributes to their success`,
-    desc:'Most gardens consist of a mix of natural & constructed elements, although even very natural gardens are always.',
-    metaBy:'by',
-    metaAuthor:'Andrew',
-    date:'August 23, 2022',
-    blogBtn:'read more',
-    columClass:'col-xl-4 col-lg-6 order-xl-1',
-    imgClass:'blog-thumb d-none',
-    blogView:'172 Views ',
-    blogComment:'25 Comments',
-  },
-  // blog sidebar end
+
+
   {
     id:12,
     img:'/assets/img/blog/blog-1.jpg',
@@ -32,60 +22,9 @@ const blogItemsList = [
     catClass: 'tags',
     authorClass: 'blog-author',
   },
-  {
-    id:13,
-    img:'/assets/img/banner/banner-4-1.jpg',
-    title:`But he is able to grab the front-most hero, truely paralyzing and dealing`,
-    desc:`Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.`,
-    metaBy:'by',
-    metaAuthor:'Steven',
-    metaAuthorImg:'/assets/img/blog/blog-author2.jpg',
-    date:'August 23, 2022',
-    blogBtn:'read more',
-    blogView:'150 Views ',
-    blogComment:'17 Comments',
-    blogCat:'Business',
-    video:true,
-    catClass: 'tags',
-    authorClass: 'blog-author',
-  },
-  {
-    id:14,
-    img:'/assets/img/banner/banner-1-1.jpg',
-    imgA:'/assets/img/banner/banner-2-1.jpg',
-    imgB:'/assets/img/banner/banner-4-1.jpg',
-    title:`Pure damage for a duration. This ability is the only interruptable by stuns`,
-    desc:`Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.`,
-    metaBy:'by',
-    metaAuthor:'Andrew',
-    metaAuthorImg:'/assets/img/blog/blog-author3.jpg',
-    date:'August 24, 2022',
-    blogBtn:'read more',
-    blogView:'160 Views ',
-    blogComment:'20 Comments',
-    blogCat:'Business ,',
-    blogCatA:'UX',
-    slider:true,
-    catClass: 'tags',
-    authorClass: 'blog-author',
-  },
-  {
-    id:15,
-    img:'/assets/img/blog/blog-7.jpg',
-    title:`Then they need to establish a company branch office/partnership.`,
-    desc:`Novia's spaciously two bedroom apartments are perfect for families and even business partners. Look out into the Manhattan skyline from the open fully equipped kitchen.`,
-    metaBy:'by',
-    metaAuthor:'Watson',
-    date:'August 25, 2022',
-    blogBtn:'read more',
-    blogView:'175 Views ',
-    blogComment:'30 Comments',
-    blogCat:'',
-    withoutImg: true,
-    catClass: 'tags d-none',
-    authorClass: 'blog-author d-none',
-  }
-  // blog page end
+
+ 
+
 ]
 
 export default blogItemsList;
