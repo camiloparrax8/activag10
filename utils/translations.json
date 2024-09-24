@@ -12,7 +12,13 @@
                 "about": "Nosotros",
                 "blog": "Blog",
                 "contact": "Contacto",
-                "connect": "Conectar"
+                "procesos":{
+                    "title": "Procesos",
+                    "agro":"Siembra y cosecha",
+                    "transformacion": "Trasnformación",
+                    "comercializacion": "Comercialización"
+                }
+              
             }
         },
         "about": {

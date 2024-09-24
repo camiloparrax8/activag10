@@ -14,6 +14,18 @@ const nav_menus_list = [
 
   {
     link: '/blog',
+    title: getTranslation(language, 'header.menu.procesos.title'),
+    hasDropdown: true,
+    megamenu: false,
+    dropdownItems: [
+      { link: '/procesos/agro', title: getTranslation(language, 'header.menu.procesos.agro') } ,
+      { link: '/procesos/transformacion', title: getTranslation(language, 'header.menu.procesos.transformacion') },
+      { link: '/procesos/comercializacion', title: getTranslation(language, 'header.menu.procesos.comercializacion') },
+    
+    ]
+  },
+  {
+    link: '/blog',
     title: getTranslation(language, 'header.menu.blog'),
   },
   {
