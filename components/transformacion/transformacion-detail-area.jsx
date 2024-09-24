@@ -1,10 +1,9 @@
 import Link from 'next/link';
 import React from 'react';
 
-const PortfolioDetailsArea = ({ item }) => {
+const TransformacionDetailArea = () => {
     return (
-        <>
-            
+        <>           
             <section className="portfolio-details-area pt-120 pb-90">
                 <div className="container">
                     <div className="portfolio-details-wrapper wow fadeInUp" data-wow-delay=".3s">
@@ -225,4 +224,4 @@ const PortfolioDetailsArea = ({ item }) => {
     );
 };
 
-export default PortfolioDetailsArea;
+export default TransformacionDetailArea;
