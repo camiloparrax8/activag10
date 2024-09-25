@@ -308,7 +308,12 @@
                 "about": "About us",
                 "blog": "Blog",
                 "contact": "Contact",
-                "connect": "Connect"
+                "procesos": {
+                    "title": "Processes",
+                    "agro": "Planting and Harvesting",
+                    "transformacion": "Transformation",
+                    "comercializacion": "Commercialization"
+                }
             }
         },
         "about": {
@@ -599,7 +604,12 @@
                 "about": "Lore impu",
                 "blog": "Lore impu",
                 "contact": "Lore impu",
-                "connect": "Lore impu"
+                "procesos": {
+                    "title": "Lore impu",
+                    "agro": "Lore impu",
+                    "transformacion": "Lore impu",
+                    "comercializacion": "Lore impu"
+                }
             }
         },
         "about": {
