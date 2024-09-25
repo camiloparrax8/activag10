@@ -7,26 +7,45 @@ const ContactFormSection = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [error, setError] = useState("");
+
+  const validateForm = () => {
+    // Regex para validar el nombre (solo letras y espacios)
+    const nameRegex = /^[a-zA-Z\s]+$/;
+    // Regex para validar el correo electrónico
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    if (!nameRegex.test(name)) {
+      return "Por favor, ingresa un nombre válido (solo letras y espacios).";
+    }
+    if (!emailRegex.test(email)) {
+      return "Por favor, ingresa un correo electrónico válido.";
+    }
+    if (message.trim().length === 0) {
+      return "El mensaje no puede estar vacío.";
+    }
+    return ""; // No hay errores
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const validationError = validateForm();
+    
+    if (validationError) {
+      setError(validationError);
+      return; // Detener el envío del formulario si hay errores
+    }
 
-    // Número de teléfono de destino (formato internacional, sin espacios ni símbolos)
+    setError(""); // Limpiar errores
+
     const phoneNumber = "573017672315"; // Reemplazar con el número de WhatsApp al que se enviarán los datos
-
-    // Mensaje de texto formateado para WhatsApp
     const whatsappMessage =
       `*Formulario de contacto*\n` +
       `*Nombre completo:* ${name}\n` +
       `*Correo electrónico:* ${email}\n` +
       `*Mensaje:* ${message}\n`;
 
-    // URL de WhatsApp con el mensaje
-    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
-      whatsappMessage
-    )}`;
-
-    // Redirigir al usuario a la URL de WhatsApp
+    const whatsappURL = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(whatsappMessage)}`;
     window.open(whatsappURL, "_blank");
   };
 
@@ -42,12 +61,10 @@ const ContactFormSection = () => {
                     {getTranslation(language, "contact.contactForm.formulario")}
                   </span>
                   <h2 className="section-main-title mb-35">
-                    {getTranslation(
-                      language,
-                      "contact.contactForm.tituloFormulario"
-                    )}
+                    {getTranslation(language, "contact.contactForm.tituloFormulario")}
                   </h2>
                 </div>
+                {error && <div className="error-message">{error}</div>}
                 <div className="contact-form">
                   <form onSubmit={handleSubmit}>
                     <div className="row">
@@ -55,10 +72,7 @@ const ContactFormSection = () => {
                         <div className="single-input-field field-name">
                           <input
                             type="text"
-                            placeholder={getTranslation(
-                              language,
-                              "contact.contactForm.placeholderNombre"
-                            )}
+                            placeholder={getTranslation(language, "contact.contactForm.placeholderNombre")}
                             value={name}
                             onChange={(e) => setName(e.target.value)}
                           />
@@ -68,10 +82,7 @@ const ContactFormSection = () => {
                         <div className="single-input-field field-email">
                           <input
                             type="text"
-                            placeholder={getTranslation(
-                              language,
-                              "contact.contactForm.placeholderCorreo"
-                            )}
+                            placeholder={getTranslation(language, "contact.contactForm.placeholderCorreo")}
                             value={email}
                             onChange={(e) => setEmail(e.target.value)}
                           />
@@ -82,10 +93,7 @@ const ContactFormSection = () => {
                           <textarea
                             name="message"
                             id="message"
-                            placeholder={getTranslation(
-                              language,
-                              "contact.contactForm.placeholderMensaje"
-                            )}
+                            placeholder={getTranslation(language, "contact.contactForm.placeholderMensaje")}
                             value={message}
                             onChange={(e) => setMessage(e.target.value)}
                           ></textarea>
@@ -96,10 +104,7 @@ const ContactFormSection = () => {
                       <button type="submit" className="fill-btn">
                         <i className="fal fa-farm"></i>
                         <span>
-                          {getTranslation(
-                            language,
-                            "contact.contactForm.botonEnvio"
-                          )}
+                          {getTranslation(language, "contact.contactForm.botonEnvio")}
                         </span>
                       </button>
                     </div>
