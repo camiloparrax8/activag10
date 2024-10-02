@@ -30,7 +30,7 @@ const PortfolioTabSection = () => {
                   <div className="tab-content" id="nav-tabContent">
                      <div className="tab-pane fade show active" id="nav-1" role="tabpanel" aria-labelledby="nav-1-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                        {portfolioList.slice(15, 27).map((item, num) => (
+                        {portfolioList.map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
                                  <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>
@@ -49,7 +49,7 @@ const PortfolioTabSection = () => {
                      </div>
                      <div className="tab-pane fade" id="nav-2" role="tabpanel" aria-labelledby="nav-2-tab">
                         <div className="portfolio-wrapper portfolio-hover-items-wrapper">
-                        {portfolioList.slice(18, 27).map((item, num) => (
+                        {portfolioList.map((item, num) => (
                            <div className="portfolio-single portfolio-hover-style" key={num}>
                               <div className="portfolio-thumb">
                                  <Link href={`/portfolio-details/${item.id}`}><a><img src={item.portfolioImg} alt=""/></a></Link>

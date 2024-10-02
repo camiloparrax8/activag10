@@ -16,7 +16,7 @@
                     "title": "Procesos",
                     "agro": "Siembra y cosecha",
                     "transformacion": "Trasnformación",
-                    "comercializacion": "Comercialización"
+                    "comercializacion": "Productos"
                 }
             }
         },
@@ -303,9 +303,9 @@
         },
         "comercializacion": {
             "index": {
-                "breadTitle": "Comercializacion",
+                "breadTitle": "Productos",
                 "breadHome": "Inicio",
-                "breadMenu": "Comercializacion"
+                "breadMenu": "Productos"
             }
         }
     },
@@ -325,7 +325,7 @@
                     "title": "Processes",
                     "agro": "Planting and Harvesting",
                     "transformacion": "Transformation",
-                    "comercializacion": "Commercialization"
+                    "comercializacion": "Products"
                 }
             }
         },
@@ -599,9 +599,9 @@
         },
         "comercializacion": {
             "index": {
-                "breadTitle": "Commercialization",
+                "breadTitle": "Products",
                 "breadHome": "Home",
-                "breadMenu": "Commercialization"
+                "breadMenu": "Products"
             }
         }
     },
