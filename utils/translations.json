@@ -306,6 +306,10 @@
                 "breadTitle": "Productos",
                 "breadHome": "Inicio",
                 "breadMenu": "Productos"
+            },
+            "product": {
+                "title": "Contactanos",
+                "subtitle": "Conoce sobre nuestros principales productos"
             }
         }
     },
@@ -602,6 +606,10 @@
                 "breadTitle": "Products",
                 "breadHome": "Home",
                 "breadMenu": "Products"
+            },
+            "product": {
+                "title": "Contact Us",
+                "subtitle": "Learn about our main products"
             }
         }
     },
@@ -898,6 +906,10 @@
                 "breadTitle": "Lore impu",
                 "breadHome": "Lore impu",
                 "breadMenu": "Lore impu"
+            },
+            "product": {
+                "title": "Lore impu",
+                "subtitle": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
             }
         }
     }

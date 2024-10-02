@@ -7,9 +7,14 @@ import { PhotoProvider, PhotoView } from 'react-photo-view';
 import 'swiper/css/bundle';
 import portfolioList from './portfolio-data';
 import { motion } from "framer-motion";
+import { getLanguage, getTranslation } from "../../utils/i18n";
+
+
 
 
 const PortfolioSlider = () => {
+const language = getLanguage();
+
     return (
         <>
             <section className="portfolio-area pt-120 pb-90 portfolio-bg portfolio-full-width">
@@ -17,8 +22,8 @@ const PortfolioSlider = () => {
                     <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                         <div className="col-lg-8">
                             <div className="section-title style-2 text-center">
-                                <span className="section-subtitle">[ showcase ]</span>
-                                <h2 className="section-main-title mb-45">watch our gallery</h2>
+                                <span className="section-subtitle">[ {getTranslation(language, 'comercializacion.product.subtitle')} ]</span>
+                                <h2 className="section-main-title mb-45"> {getTranslation(language, 'comercializacion.product.title')} </h2>
                             </div>
                         </div>
                     </div>
@@ -66,7 +71,7 @@ const PortfolioSlider = () => {
 
                                 >
                                   
-                                    {portfolioList.slice(4, 9).map((item, index) => {
+                                    {portfolioList.map((item, index) => {
                                         return (
                                             <SwiperSlide key={index}>
                                                 <motion.div animate={{ scale: 1 }}
