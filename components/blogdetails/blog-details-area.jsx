@@ -27,7 +27,6 @@ const BlogDetailsArea = () => {
   const [imagenes, setImagenes] = useState([]);
   const [titulo, setTitulo] = useState("");
   const [descripcion, setDescripcion] = useState("");
-  const [fecha, setFecha] = useState("");
   const [autor, setAutor] = useState("");
   const language = getLanguage();
 
@@ -51,6 +50,21 @@ const BlogDetailsArea = () => {
             url: imagen.url,
           }));
 
+        if (data.autor) {
+          const autorInfo = {
+            nombre: data.autor.nombre ,
+            cargo: data.autor.cargo ,
+            profesion: data.autor.profesion,
+          };
+          setAutor(autorInfo); 
+        } else {
+          setAutor({
+            nombre: "Nombre no disponible",
+            cargo: "Cargo no disponible",
+            profesion: "Profesión no disponible",
+          });
+        }
+
         setImagenes(imagenes);
         setVideos(videoUrls);
       } catch (error) {
@@ -63,7 +77,7 @@ const BlogDetailsArea = () => {
     }
   }, [id]);
 
-  console.log(entradas);
+  // console.log(entradas.autor.nombre);
 
   useEffect(() => {
     if (entradas) {
@@ -162,7 +176,8 @@ const BlogDetailsArea = () => {
             </div>
             <div className="col-xl-3 col-lg-2 col-md-8">
               <div className="blog-sidebar_wrapper mb-60">
-                <BlogAbout />
+                <BlogAbout autor = {autor}
+                />
               </div>
             </div>
           </div>
