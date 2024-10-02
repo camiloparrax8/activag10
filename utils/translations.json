@@ -245,6 +245,11 @@
                 "breadHome": "Inicio",
                 "breadMenu": "Transformación"
             },
+            "info": {
+                "title": "Transformación del cacao",
+                "description": "En nuestro proceso, comenzamos con la recolección y evaluación de los granos de cacao para asegurar su calidad. Luego, los tostamos para desarrollar su sabor, y pasamos a la molienda y descascarillado para obtener el Nib de cacao. Refinamos y mezclamos el cacao para lograr una textura suave y ajustamos la receta según el tipo de chocolate que producimos: 80%, 72%, o 50%. Posteriormente, atemperamos el chocolate para darle brillo y estabilidad, lo moldeamos en su forma final y lo empaquetamos para garantizar su frescura durante el almacenamiento."
+            },
+            "step-title": "Proceso paso a paso",
             "pasos": {
                 "evaluacion": {
                     "titulo": "Evaluación de calidad",
@@ -285,6 +290,14 @@
                 "almacenamiento": {
                     "titulo": "Almacenamiento",
                     "descripcion": "Se guarda en un lugar fresco (14-18°C)."
+                },
+                "despacho": {
+                    "titulo": "Despacho",
+                    "descripcion": "Se envía a los diferentes puntos de venta."
+                },
+                "comercializacion": {
+                    "titulo": "Comercialización",
+                    "descripcion": "Llega a manos del cliente final."
                 }
             }
         },

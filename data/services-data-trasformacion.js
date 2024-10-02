@@ -4,14 +4,15 @@ const language = getLanguage();
 
 const ServicesList = [
     {
-        serviceIcon: 'flaticon-search-interface-symbol',
+        id: 1,
+        serviceIcon: 'fas fa-search',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.evaluacion.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.evaluacion.descripcion'),
 
     },
     {
-        serviceIcon: 'flaticon-house',
+        serviceIcon: 'fas fa-fire',
         serviceTitle: 'Urban',
         serviceTitle: getTranslation(language, 'transformacion.pasos.tostado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.tostado.descripcion'),
@@ -19,54 +20,66 @@ const ServicesList = [
     },
     {
         id: 3,
-        serviceIcon: 'flaticon-farming-and-gardening',
+        serviceIcon: 'fas fa-mortar-pestle',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.molienda.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.molienda.descripcion'),
 
     },
     {
-        serviceIcon: 'flaticon-flower-with-rounded-petals',
+        serviceIcon: 'fas fa-vacuum',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.descascarillado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.descascarillado.descripcion'),
     },
     {
-        serviceIcon: 'flaticon-gardening-1',
+        serviceIcon: 'fas fa-blender',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.refinado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.refinado.descripcion'),
     },
     {
-        serviceIcon: 'flaticon-gardening-1',
+        serviceIcon: 'fas fa-flask-potion',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.conchado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.conchado.descripcion'),
     },
     {
-        serviceIcon: 'flaticon-gardening-1',
+        serviceIcon: 'fas fa-thermometer',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.atemperado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.atemperado.descripcion'),
     },
     {
-        serviceIcon: 'flaticon-farmer',
+        serviceIcon: 'fas fa-oven',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.moldeado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.moldeado.descripcion'),
     },
     {
-        serviceIcon: 'flaticon-gardening',
+        serviceIcon: 'fas fa-box-open',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.empacado.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.empacado.descripcion'),
     },
     {
-        serviceIcon: 'flaticon-farming-and-gardening',
+        serviceIcon: 'fas fa-container-storage',
         serviceBadge: '',
         serviceTitle: getTranslation(language, 'transformacion.pasos.almacenamiento.titulo'),
         serviceDesc: getTranslation(language, 'transformacion.pasos.almacenamiento.descripcion'),
-    }
+    },
+    {
+        serviceIcon: 'fas fa-truck-container',
+        serviceBadge: '',
+        serviceTitle: getTranslation(language, 'transformacion.pasos.despacho.titulo'),
+        serviceDesc: getTranslation(language, 'transformacion.pasos.despacho.descripcion'),
+    },
+    {
+        serviceIcon: 'fas fa-store',
+        serviceBadge: '',
+        serviceTitle: getTranslation(language, 'transformacion.pasos.comercializacion.titulo'),
+        serviceDesc: getTranslation(language, 'transformacion.pasos.comercializacion.descripcion'),
+    },
 ]
 
 export default ServicesList;
