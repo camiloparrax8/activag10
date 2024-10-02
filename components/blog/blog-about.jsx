@@ -1,13 +1,15 @@
 import React from 'react';
 
-const BlogAbout = () => {
+const BlogAbout = ({autor}) => {
+
+    console.log(autor);
     return (
         <div className="sidebar-widget sidebar-about mb-50">
             <h4 className="sidebar-widget-title">Escritor</h4>
             <div className="sidebar-about-content">
               
-                <h4 className="member-name">Alonso D. Dowson</h4>
-                <p>Ingeniero de sistemas.</p>
+                <h4 className="member-name">{autor.nombre}</h4>
+                <p>{autor.profesion} <br /> {autor.cargo}.</p>
               
             </div>
         </div>
