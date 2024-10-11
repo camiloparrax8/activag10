@@ -10,7 +10,7 @@
             "menu": {
                 "home": "Inicio",
                 "about": "Nosotros",
-                "blog": "Blog",
+                "blog": "Noticias",
                 "contact": "Contacto",
                 "procesos": {
                     "title": "Procesos",
@@ -323,7 +323,7 @@
             "menu": {
                 "home": "Home",
                 "about": "About us",
-                "blog": "Blog",
+                "blog": "News",
                 "contact": "Contact",
                 "procesos": {
                     "title": "Processes",
