@@ -30,7 +30,7 @@ const TransformacionDetailArea = () => {
               </div>
             </div>
             <div className="d-flex justify-content-center mb-4">
-              <h2>{getTranslation(language,  "transformacion.step-title")}</h2>
+              {/* <h2>{getTranslation(language,  "transformacion.step-title")}</h2> */}
             </div>
             <div className="services-wrapper services-wrapper-2">
             
