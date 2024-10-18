@@ -31,15 +31,15 @@
             "description-two": "Estamos conformados por 10 organizaciones de primer nivel, cuyos integrantes son familias guardabosques. Desde esa fecha hasta hoy, sigue siendo una asociación con personería jurídica, patrimonio propio e independiente y autonomía administrativa.",
             "mision": {
                 "title": "Misión",
-                "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general"
+                "description": "ACTIVA G-10 promueve el desarrollo social y económico de sus asociados y la comunidad, a través de la mejora continua en la producción, comercialización y transformación de productos agrícolas, forestales y artesanales, canalizando acciones de cooperación pública, privada y no gubernamental a nivel nacional e internacional."
             },
             "vision": {
                 "title": "Visión",
-                "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general."
+                "description": "ACTIVA G-10 será reconocida por su liderazgo en la consolidación de programas que impulsen el crecimiento económico y social, fomentando una cultura autogestionaria solidaria, ambientalmente sostenible y económicamente justa para sus asociados y la comunidad."
             },
             "goal": {
                 "title": "Objetivo",
-                "description": "ACTIVA G-10 es una organización de economía solidaria de segundo nivel, dedicada a la planeación, ejecución, coordinación, promoción y canalización de acciones públicas, privadas y no gubernamentales del orden nacional e internacional, para impulsar el desarrollo social y económico de los asociados y la comunidad en general"
+                "description": "ACTIVA G-10 tiene como finalidad ejecutar, coordinar y promover acciones públicas, privadas y no gubernamentales, tanto a nivel nacional como internacional, para fomentar el desarrollo social y económico de la persona, la familia y la comunidad en general."
             },
             "video-title": "Realizamamos el acompañamiento productivo a los pequeños cacaoteros",
             "timeline": {
@@ -308,7 +308,7 @@
                 "breadMenu": "Productos"
             },
             "product": {
-                "title": "Contactanos",
+                "title": "Productos",
                 "subtitle": "Conoce sobre nuestros principales productos"
             }
         }
@@ -342,17 +342,17 @@
             "cta": "Contact us",
             "description": "We are a group of rural peasant entrepreneurs from the alternative development program, lovers of the culture of legality and licit alternatives, within which productive activities of cocoa, banana, rubber, and honey production are developed.",
             "description-two": "We are made up of 10 first-level organizations, whose members are forest ranger families. Since then, it remains an association with legal personality, its own and independent assets, and administrative autonomy.",
-            "mision": {
+            "mission": {
                 "title": "Mission",
-                "description": "ACTIVA G-10 is a second-level solidarity economy organization, dedicated to planning, executing, coordinating, promoting, and channeling public, private, and non-governmental actions at the national and international levels to promote the social and economic development of members and the community in general."
+                "description": "ACTIVA G-10 promotes the social and economic development of its members and the community through the continuous improvement of the production, commercialization, and transformation of agricultural, forestry, and artisanal products, channeling public, private, and non-governmental cooperation actions at the national and international levels."
             },
             "vision": {
                 "title": "Vision",
-                "description": "ACTIVA G-10 aims to be a second-level solidarity economy organization, dedicated to planning, executing, coordinating, promoting, and channeling public, private, and non-governmental actions at the national and international levels to promote the social and economic development of members and the community in general."
+                "description": "ACTIVA G-10 will be recognized for its leadership in consolidating programs that drive economic and social growth, fostering a self-managed, solidarity-based, environmentally sustainable, and economically just culture for its members and the community."
             },
             "goal": {
-                "title": "Objective",
-                "description": "ACTIVA G-10 is a second-level solidarity economy organization, dedicated to planning, executing, coordinating, promoting, and channeling public, private, and non-governmental actions at the national and international levels to promote the social and economic development of members and the community in general."
+                "title": "Goal",
+                "description": "ACTIVA G-10 aims to execute, coordinate, and promote public, private, and non-governmental actions, both nationally and internationally, to foster the social and economic development of individuals, families, and the community at large."
             },
             "video-title": "We accompany small cocoa farmers in their production",
             "timeline": {
@@ -558,6 +558,10 @@
                 "breadHome": "Home",
                 "breadMenu": "Transformation"
             },
+            "info": {
+                "title": "Cocoa Transformation",
+                "description": "In our process, we start with the collection and evaluation of cocoa beans to ensure their quality. Then, we roast them to develop their flavor, followed by grinding and shelling to obtain the cocoa nib. We refine and mix the cocoa to achieve a smooth texture, and adjust the recipe according to the type of chocolate we produce: 80%, 72%, or 50%. Afterwards, we temper the chocolate to give it shine and stability, mold it into its final shape, and package it to guarantee its freshness during storage."
+            },
             "pasos": {
                 "evaluacion": {
                     "titulo": "Quality Evaluation",
@@ -598,6 +602,14 @@
                 "almacenamiento": {
                     "titulo": "Storage",
                     "descripcion": "It is kept in a cool place (14-18°C)."
+                },
+                "despacho": {
+                    "titulo": "Dispatch",
+                    "descripcion": "It is sent to different sales points."
+                },
+                "comercializacion": {
+                    "titulo": "Commercialization",
+                    "descripcion": "It reaches the hands of the final customer."
                 }
             }
         },
