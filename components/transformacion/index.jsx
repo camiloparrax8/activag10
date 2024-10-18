@@ -5,6 +5,7 @@ import Breadcrumb from '../common/breadcrumb';
 import FooterFour from '../../layout/footers/footerfour';
 import { getLanguage, getTranslation } from "../../utils/i18n";
 import TransformacionDetailArea from './transformacion-detail-area';
+import PortfolioSlider from './portfolio-slider';
 
 const language = getLanguage();
 
@@ -14,7 +15,9 @@ const index = () => {
         <main>
             <HeaderOne />
             <Breadcrumb breadTitle={getTranslation(language, 'transformacion.index.breadTitle')} breadSubtitle={getTranslation(language, 'transformacion.index.breadSubtitle')} breadHome={getTranslation(language, 'transformacion.index.breadHome')} breadMenu={getTranslation(language, 'transformacion.index.breadMenu')} />
+
             <TransformacionDetailArea></TransformacionDetailArea> 
+            <PortfolioSlider></PortfolioSlider>
 
             {/* <BlogSectionMain /> */}
             <FooterFour />
