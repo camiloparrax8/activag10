@@ -53,7 +53,7 @@ const FooterFour = () => {
                     <div className="social-links">
                       <ul>
                         <li>
-                          <a href="https://www.unicordoba.edu.co/">
+                          <a href="https://www.facebook.com/people/Activa-G10/61567473657490/">
                             <i className="fab fa-facebook"></i>
                           </a>
                         </li>
