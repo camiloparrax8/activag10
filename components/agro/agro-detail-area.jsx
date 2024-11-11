@@ -76,10 +76,11 @@ const AgroDetailArea = () => {
                   </div>
                   <div className="col-1 p-1">
                     <div className="portfolio-meta-btn">
+                    
                       <ModalVideo
                         channel="youtube"
                         isOpen={isOpen}
-                        videoId="Jzs040pxjWM"
+                        videoId={language==="es" ? "xui1NremmlA" : "pCxNiz9Ny3g"}
                         onClose={() => {
                           openVideoModal();
                         }}
