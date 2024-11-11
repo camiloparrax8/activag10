@@ -148,13 +148,13 @@
             },
             "footer": {
                 "footer-text": "celular",
-                "footer-btn-text": "Contactanos",
+                "footer-btn-text": "Contáctanos",
                 "footer-social-text": "Redes Sociales"
             }
         },
         "contact": {
             "index": {
-                "breadTitle": "Contactanos",
+                "breadTitle": "Contáctanos",
                 "breadSubtitle": "Hagamos un mundo mejor",
                 "breadHome": "Inicio",
                 "breadMenu": "Contacto"
@@ -172,7 +172,7 @@
                 "h2Contacto": "Pongase en contacto",
                 "h4Informacion": "sede principal",
                 "numeroTelefono": "+57 300 123 4567",
-                "correo": "activaG10@gmail.com",
+                "correo": "redesactivag10@gmail.com",
                 "direccion": "Cl. 11 #17-45, Tierralta, Córdoba",
                 "horaDeApertura": "horario de apertura",
                 "spanSabLunes": "Sab - Lun",
@@ -485,7 +485,7 @@
                 "h2Contacto": "Get in touch",
                 "h4Informacion": "Main office",
                 "numeroTelefono": "+57 300 123 4567",
-                "correo": "activaG10@gmail.com",
+                "correo": "redesactivag10@gmail.com",
                 "direccion": "Cl. 11 #17-45, Tierralta, Córdoba",
                 "horaDeApertura": "Opening hours",
                 "spanSabLunes": "Sat - Mon",

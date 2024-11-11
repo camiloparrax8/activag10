@@ -78,28 +78,29 @@ const BlogDetailsArea = () => {
   }, [id]);
 
   // console.log(entradas.autor.nombre);
+  console.log(entradas)
 
   useEffect(() => {
     if (entradas) {
       switch (language) {
         case "es":
           setTitulo(entradas.titulo);
-          setDescripcion(entradas.descripcion_corta);
+          setDescripcion(entradas.descripcion_larga);
           setAutor(entradas.autor);
           break;
         case "en":
           setTitulo(entradas.titulo_ingles);
-          setDescripcion(entradas.descripcion_corta_ingles);
+          setDescripcion(entradas.descripcion_larga_ingles);
           break;
         case "em":
           setTitulo(entradas.titulo_emb);
-          setDescripcion(entradas.descripcion_corta_emb);
+          setDescripcion(entradas.descripcion_larga_emb);
           setAutor(entradas.autor);
 
           break;
         default:
           setTitulo(entradas.titulo);
-          setDescripcion(entradas.descripcion_corta);
+          setDescripcion(entradas.descripcion_larga);
           setAutor(entradas.autor);
           break;
       }

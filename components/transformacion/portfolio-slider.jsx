@@ -148,33 +148,13 @@ const PortfolioSlider = () => {
                                     </a>
                                   </Link>
                                   <div className="portfolio-content">
-                                    <Link
-                                      href={`/portfolio-details/${item.id}`}
-                                    >
-                                      <a className="portfolio-hover-bg"></a>
-                                    </Link>
+                                    <a className="portfolio-hover-bg"></a>
                                     <div className="portfolio-inner">
-                                      <div className="portfolio-inner-text">
-                                        <span className="portfolio-tag">
-                                          {item.portfolioTag}
-                                        </span>
-                                        <h4 className="portfolio-title">
-                                          <Link
-                                            href={`/portfolio-details/${item.id}`}
-                                          >
-                                            <a>{item.portfolioTitle}</a>
-                                          </Link>
-                                        </h4>
-                                      </div>
-                                      <span>
-                                        <PhotoView src={item.portfolioImg}>
-                                          <button className="icon-btn image-popups">
-                                            <i
-                                              className={item.portfolioIcon}
-                                            ></i>
-                                          </button>
-                                        </PhotoView>
-                                      </span>
+                                      <PhotoView src={item.portfolioImg}>
+                                        <button className="icon-btn image-popups">
+                                          <i className={item.portfolioIcon}></i>
+                                        </button>
+                                      </PhotoView>
                                     </div>
                                   </div>
                                 </div>

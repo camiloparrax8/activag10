@@ -1,12 +1,12 @@
-import SEO from '../components/seo';
-import Wrapper from '../layout/wrapper';
-import ContactMain from '../components/contact';
+import SEO from "../components/seo";
+import Wrapper from "../layout/wrapper";
+import ContactMain from "../components/contact";
 
 const index = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={'Contact'} />
-      <ContactMain/>
+      <SEO pageTitle={"Contacto"} />
+      <ContactMain />
     </Wrapper>
   );
 };
