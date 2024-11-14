@@ -21,8 +21,7 @@ const ContactMapSection = () => {
             <div className="row wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-4">
                   <div className="contact-map">
-                     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d66440.99430109383!2d-74.280594133827!3d40.7544305056857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1652616547670!5m2!1sen!2sbd"></iframe>
-                  </div>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3949.317237564014!2d-76.06300162499089!3d8.170759991860256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zOMKwMTAnMTQuNyJOIDc2wrAwMyczNy41Ilc!5e0!3m2!1ses!2sco!4v1731620769968!5m2!1ses!2sco" ></iframe>                  </div>
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-media">
