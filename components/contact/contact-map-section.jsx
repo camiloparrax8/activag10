@@ -34,7 +34,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-phone"></i>
                                  </div>
-                                 <p><a href="tel:1-800-700-600">{getTranslation(language, 'contact.contactMap.numeroTelefono')}</a></p>
+                                 <p><a href="3145959915">3206271291 -  3145959915 </a></p>
                               </div>
                            </li>
                            <li>
@@ -50,7 +50,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><a href="#">{getTranslation(language, 'contact.contactMap.direccion')}</a></p>
+                                 <p><a href="#">CLL 12 # 17-34 BR 19 MARZO <br /> TIERRALTA, CORDOBA -  COLOMBIA</a></p>
                               </div>
                            </li>
                         </ul>
