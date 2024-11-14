@@ -15,7 +15,7 @@ const HeaderTopFour = () => {
                                     <i className="fas fa-phone"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><a href="tel:78989700098">789 897 000 98</a></p>
+                                    <p><a href="tel:3145959915">3145959915 -  3206271291 </a></p>
                                 </div>
                             </div>
                             <div className="meta-item">
