@@ -66,11 +66,11 @@ const Sidebar = () => {
                         {getTranslation(language, "language.en")}
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a onClick={() => setLanguage("em")}>
                         {getTranslation(language, "language.em")}
                       </a>
-                    </li>
+                    </li> */}
                   </ul>
                 </li>
                 <li>
