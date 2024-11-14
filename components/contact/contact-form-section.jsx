@@ -38,7 +38,7 @@ const ContactFormSection = () => {
 
     setError(""); // Limpiar errores
 
-    const phoneNumber = "573017672315"; // Reemplazar con el número de WhatsApp al que se enviarán los datos
+    const phoneNumber = "573145959915"; // Reemplazar con el número de WhatsApp al que se enviarán los datos
     const whatsappMessage =
       `*Formulario de contacto*\n` +
       `*Nombre completo:* ${name}\n` +
