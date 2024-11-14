@@ -25,8 +25,8 @@ const FooterFour = () => {
                   <div className="footer-text">
                     <p>
                       {getTranslation(language, "home.footer.footer-text")}: +57
-                      3012546886 <br />
-                      calle 33 #4-27 Tierralta
+                      3145959915 -  3206271291 <br />
+                      CLL 12 # 17-34 BRR 19 MARZO <br />MUNICIPIO DE TIERRALTA <br />DEPARTAMENTO DE CORDOBA
                     </p>
                   </div>
                   <div className="footer-btn">
